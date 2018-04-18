@@ -196,7 +196,8 @@
 			"shop.html": {
 				"resources": [],
 				"refer": [
-					"shopcart.html"
+					"shopcart.html",
+					"course.html"
 				],
 				"priority": 0
 			}

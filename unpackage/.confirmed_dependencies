@@ -57,7 +57,8 @@
 	},
 	"shop.html": {
 		"refer": [
-			"shopcart.html"
+			"shopcart.html",
+			"course.html"
 		]
 	}
 }
