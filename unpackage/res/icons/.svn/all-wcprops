@@ -21,6 +21,12 @@ svn:wc:ra_dav:version-url
 V 64
 /svn/tyb_mui/!svn/ver/47/taoyiba/unpackage/res/icons/192x192.png
 END
+76x76.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/tyb_mui/!svn/ver/47/taoyiba/unpackage/res/icons/76x76.png
+END
 58x58.png
 K 25
 svn:wc:ra_dav:version-url
@@ -32,12 +38,6 @@ K 25
 svn:wc:ra_dav:version-url
 V 64
 /svn/tyb_mui/!svn/ver/47/taoyiba/unpackage/res/icons/256x256.png
-END
-76x76.png
-K 25
-svn:wc:ra_dav:version-url
-V 62
-/svn/tyb_mui/!svn/ver/47/taoyiba/unpackage/res/icons/76x76.png
 END
 167x167.png
 K 25

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 32
-/svn/tyb_mui/!svn/ver/20/taoyiba
+/svn/tyb_mui/!svn/ver/47/taoyiba
 END
 .project
 K 25
@@ -57,11 +57,11 @@ svn:wc:ra_dav:version-url
 V 45
 /svn/tyb_mui/!svn/ver/42/taoyiba/results.html
 END
-search.html
+.gitattributes
 K 25
 svn:wc:ra_dav:version-url
-V 44
-/svn/tyb_mui/!svn/ver/42/taoyiba/search.html
+V 47
+/svn/tyb_mui/!svn/ver/47/taoyiba/.gitattributes
 END
 shoplist.html
 K 25
@@ -69,11 +69,11 @@ svn:wc:ra_dav:version-url
 V 46
 /svn/tyb_mui/!svn/ver/44/taoyiba/shoplist.html
 END
-.gitattributes
+search.html
 K 25
 svn:wc:ra_dav:version-url
-V 47
-/svn/tyb_mui/!svn/ver/47/taoyiba/.gitattributes
+V 44
+/svn/tyb_mui/!svn/ver/42/taoyiba/search.html
 END
 mycourse.html
 K 25
@@ -86,6 +86,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 46
 /svn/tyb_mui/!svn/ver/41/taoyiba/user-pwd.html
+END
+goodslist.html
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/tyb_mui/!svn/ver/49/taoyiba/goodslist.html
 END
 question.html
 K 25
@@ -165,17 +171,23 @@ svn:wc:ra_dav:version-url
 V 48
 /svn/tyb_mui/!svn/ver/41/taoyiba/userinform.html
 END
+newsetail.html
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/tyb_mui/!svn/ver/36/taoyiba/newsetail.html
+END
 advice.html
 K 25
 svn:wc:ra_dav:version-url
 V 44
 /svn/tyb_mui/!svn/ver/39/taoyiba/advice.html
 END
-newsetail.html
+user-name.html
 K 25
 svn:wc:ra_dav:version-url
 V 47
-/svn/tyb_mui/!svn/ver/36/taoyiba/newsetail.html
+/svn/tyb_mui/!svn/ver/41/taoyiba/user-name.html
 END
 schoolrating.html
 K 25
@@ -189,29 +201,23 @@ svn:wc:ra_dav:version-url
 V 48
 /svn/tyb_mui/!svn/ver/28/taoyiba/courselist.html
 END
-user-name.html
-K 25
-svn:wc:ra_dav:version-url
-V 47
-/svn/tyb_mui/!svn/ver/41/taoyiba/user-name.html
-END
 orderhistory.html
 K 25
 svn:wc:ra_dav:version-url
 V 50
 /svn/tyb_mui/!svn/ver/40/taoyiba/orderhistory.html
 END
-registernew.html
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/tyb_mui/!svn/ver/23/taoyiba/registernew.html
-END
 goodsdetail.html
 K 25
 svn:wc:ra_dav:version-url
 V 49
 /svn/tyb_mui/!svn/ver/27/taoyiba/goodsdetail.html
+END
+registernew.html
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/tyb_mui/!svn/ver/23/taoyiba/registernew.html
 END
 answer.html
 K 25
@@ -247,7 +253,7 @@ shop.html
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/tyb_mui/!svn/ver/39/taoyiba/shop.html
+/svn/tyb_mui/!svn/ver/48/taoyiba/shop.html
 END
 schooldetail.html
 K 25
