@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<style type="text/css">
+		body,.html{background: rgb(248,248,248);}
+	</style>
+	<body>
+		<div class="wrapper login register">
+			<!--顶部搜索框-->
+			<header class="head">
+				<span class="header-back mui-action-back">
+					<img src="img/detail_03.png"/>
+				</span>
+				<div>
+					注册
+				</div>
+				<span onclick="opennew('registernew')">
+					完成
+				</span>
+			</header>
+			<div class="main">
+				<h1>
+					已向您的手机号发送验证码，请注意查收
+				</h1>
+				<div class="input-group">
+						<img src="img/register_03.png"/>
+						<input type="number" placeholder="请输入密码"/>
+						<div>
+							重新获取
+						</div>
+					</div>
+				<div class="input-group">
+					<img src="img/login_14.png" />
+					<input type="password" placeholder="请输入密码" />
+				</div>
+				<div class="input-group registergp" style="background: none;">
+					<img src="img/register_07.png"/>
+					<div style="display: none;"></div>
+					<span>
+						同意《用户注册写协议》
+					</span>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			function opennew(target) {
+				mui.openWindow({
+					url: '' + target + '.html',
+					id: '' + target + ''
+				})
+			}
+			$(function(){
+				$('.registergp img').click(function(){
+					$(this).hide()
+					$(this).next().show()
+				})
+				$('.registergp div').click(function(){
+					$(this).hide()
+					$(this).prev().show()
+				})
+			})
+		</script>
+	</body>
+
+</html>

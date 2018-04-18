@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="wrapper index shop shopcart" id="app">
+			<div class="myvideo">
+				<video autoplay="autoplay" controls="controls"></video>
+			</div>
+			<!--顶部搜索框-->
+			<header class="head">
+				<span></span>
+				<div>
+					购物车
+				</div>
+				<span>
+					<span id="editor">编辑</span> <img src="img/shop01.png" onclick="opennew('information')"/>
+				</span>
+			</header>
+			<div class="main">
+				<div id="main-inner">
+				<div class="cart-group">
+					<div class="cart-shop">
+						<div class="top">
+							<img src="img/register_07.png"/>
+						</div>
+						<img src="img/cart_03.png"/>
+						庆丰电器
+						<img src="img/user_31.gif"/>
+					</div>
+					<div class="cart-main">
+						<div class="round">
+							<img src="img/register_07.png"/>
+						</div>
+						<div class="img-box">
+							<img src="img/course_09.png"/>
+							<sapn class='cart-title'>
+								特卖商品
+							</sapn>
+						</div>
+						<div class="cart-text">
+							<div class="cart-name">
+								美的强力吸尘器家用经典手持吸尘超大功率防尘美的超大功率防尘
+							</div>
+							<div class="cart-price">
+								<span class="cart-money">
+									<strong>
+										¥899.0
+									</strong>
+									(原价)
+								</span>
+								<span>
+									<span class="shop-num">数量  x1</span>
+									<div class="mui-numbox" data-numbox-step='1' data-numbox-min='1'>
+									  <button class="mui-btn mui-numbox-btn-minus" type="button">-</button>
+									  <input class="mui-numbox-input" type="number" />
+									  <button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
+									</div>
+								</span>
+							</div>
+						</div>
+						<div class="cart-delete">
+							<img src="img/delete.png"/>
+						</div>
+					</div>
+				</div>
+				<div class="cart-group">
+					<div class="cart-shop">
+						<div class="top">
+							<img src="img/register_07.png"/>
+						</div>
+						<img src="img/cart_03.png"/>
+						庆丰电器
+						<img src="img/user_31.gif"/>
+					</div>
+					<div class="cart-main">
+						<div class="round">
+							<img src="img/register_07.png"/>
+						</div>
+						<div class="img-box">
+							<img src="img/course_09.png"/>
+							<sapn class='cart-title'>
+								特卖商品
+							</sapn>
+						</div>
+						<div class="cart-text">
+							<div class="cart-name">
+								美的强力吸尘器家用经典手持吸尘超大功率防尘美的超大功率防尘
+							</div>
+							<div class="cart-price">
+								<span class="cart-money">
+									<strong>
+										¥899.0
+									</strong>
+									(原价)
+								</span>
+								<span>
+									<span class="shop-num">数量  x1</span>
+									<div class="mui-numbox" data-numbox-step='1' data-numbox-min='1'>
+									  <button class="mui-btn mui-numbox-btn-minus" type="button">-</button>
+									  <input class="mui-numbox-input" type="number" />
+									  <button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
+									</div>
+								</span>
+							</div>
+						</div>
+						<div class="cart-delete">
+							<img src="img/delete.png"/>
+						</div>
+					</div>
+				</div>
+				</div>
+				<!--人气推荐-->
+				<div class="index-title">
+					<span></span>
+					<img src="img/shop03_07.png"/>
+					<span>
+					</span>
+				</div>
+				<div class="index-main heat">
+					<div class="index-tab">
+						<img src="img/shop05_03.png" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+						<div class="sales">
+							销量:11
+						</div>
+					</div>
+					<div class="index-tab">
+						<img src="img/shop05_03.png" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+						<div class="sales">
+							销量:11
+						</div>
+					</div>
+					<div class="index-tab">
+						<img src="img/shop05_03.png" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+						<div class="sales">
+							销量:11
+						</div>
+					</div>
+					<div class="index-tab">
+						<img src="img/shop05_03.png" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+						<div class="sales">
+							销量:11
+						</div>
+					</div>
+					<div class="index-tab">
+						<img src="img/shop05_03.png" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+						<div class="sales">
+							销量:11
+						</div>
+					</div>
+					<div class="index-tab">
+						<img src="img/shop05_03.png" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+						<div class="sales">
+							销量:11
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cart-bottom">
+				<div class="bootom-price">
+					<span class="radio">
+						<div class="allradio" id="allradio">
+							<img src="img/register_07.png"/>
+						</div>
+						全选
+					</span>
+					<span class="bottom-money">
+						合计: <strong>¥1048.0</strong>
+					</span>
+				</div>
+				<div class="bottom-buy">
+					去结算
+				</div>
+			</div>
+			<!--底部导航栏-->
+			<bottom class='bottom'>
+				<div class="bottom-tab" data-target='index'>
+					<img src="img/index01.png" />
+					<span>
+						首页
+					</span>
+				</div>
+				<div class="bottom-tab" data-target='course'>
+					<img src="img/bottom02.png" />
+					<span>
+						课程
+					</span>
+				</div>
+				<div class="bottom-tab" data-target='shop'>
+					<img src="img/index03.png" />
+					<span>
+						商城
+					</span>
+				</div>
+				<div class="bottom-tab active"  data-target='shopcart'>
+					<img src="img/bottom04-active.png"/>
+					<span>
+						购物车
+					</span>
+				</div>
+				<div class="bottom-tab" data-target='user'>
+					<img src="img/my.png" />
+					<span>
+						我的
+					</span>
+				</div>
+			</bottom>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function() {
+
+			function plusReady() {
+				// 弹出系统等待对话框
+				var w = plus.nativeUI.showWaiting("数据加载中...");
+			}
+			if(window.plus) {
+				plusReady();
+			} else {
+				document.addEventListener("plusready", plusReady, false);
+			}
+			setTimeout(function() {
+				plus.nativeUI.closeWaiting()
+			}, 1000)
+			$('.bottom-tab').click(function() {
+				opennew($(this).attr('data-target'))
+			})
+			function opennew(target) {
+				mui.openWindow({
+					url: '' + target + '.html',
+					id: '' + target + ''
+				})
+			}
+			$('.round').click(function(){
+				if($(this).attr('class')=='round'){
+					$(this).addClass('active')
+				}else{
+					$(this).removeClass('active')
+				}
+			})
+			$('.top').click(function(){
+				if($(this).attr('class')=='top'){
+					$(this).addClass('active')
+					$(this).parent().parent().find('.round').addClass('active')
+				}else{
+					$(this).removeClass('active')
+					$(this).parent().parent().find('.round').removeClass('active')
+				}
+			})
+			$('.wrapper').scroll(function(){
+				if($('#main-inner').height()<=$(this).scrollTop()){
+					$('.index-title').css('position','fixed').css('top','.6rem')
+				}else{
+					$('.index-title').css('position','relative').css('top','0')
+				}
+			})
+			$('#allradio').click(function(){
+				if($(this).attr('class')=='allradio'){
+					$(this).addClass('active')
+					$('.round').addClass('active')
+					$('.top').addClass('active')
+				}else{
+					$(this).removeClass('active')
+					$('.round').removeClass('active')
+					$('.top').removeClass('active')
+				}
+			})
+			$('#editor').click(function(){
+				if($(this).html()=='编辑'){
+					$(this).html('保存')
+					$('.shop-num').hide()
+					$('.mui-numbox').show()
+//					$('.cart-delete').css('display','flex')
+					$('.cart-delete').animate({"width":".6rem"},200,'swing')
+				}else{
+					$(this).html('编辑')
+					$('.shop-num').show()
+					$('.mui-numbox').hide()
+					$('.cart-delete').animate({"width":"0"},200,'swing')
+				}
+			})
+		})
+	</script>
+
+</html>

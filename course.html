@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.4&key=3adc59b361b877d943cda0ce50b9b4da"></script>
+		<script src="http://webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="wrapper course">
+			<!--底部弹出新闻分类容器-->
+			<div class="bottom-nav">
+				<div class="btnav-top">
+					<img src="img/close_03.png" />
+				</div>
+				<div class="bnav-main">
+					<div class="bnav-group activenav">
+						综合推荐
+					</div>
+					<div class="bnav-group">
+						艺术动态
+					</div>
+					<div class="bnav-group">
+						育儿资讯
+					</div>
+				</div>
+			</div>
+			<!--视频全屏播放容器-->
+			<div class="myvideo">
+				<video autoplay="autoplay" controls="controls"></video>
+			</div>
+			<header class="head">
+				<span id="city">
+					<span id="city01">徐州市</span>
+				<img src="img/course_03.png" />
+				</span>
+				<div>课程</div>
+				<span class="head-setting">
+					<img src="img/course_3.png"/>
+				</span>
+			</header>
+			<div class="main">
+				<div id="scroll">
+					<!--主体轮播图-->
+					<div class="mui-slider">
+						<div class="mui-slider-group">
+							<div class="mui-slider-item">
+								<a href="#"><img src="img/course_06.png" /></a>
+							</div>
+							<div class="mui-slider-item video">
+								<video poster="img/back.jpg" src="img/UC-download.mp4"></video>
+								<img src="img/play.png" />
+							</div>
+							<div class="mui-slider-item">
+								<a href="#"><img src="img/course_06.png" /></a>
+							</div>
+							<div class="mui-slider-item">
+								<a href="#"><img src="img/course_06.png" /></a>
+							</div>
+						</div>
+					</div>
+					<div class="tabnav">
+						<div class="tab">
+							<img src="img/course02_03.png" />
+							<span>
+								钢琴
+							</span>
+						</div>
+						<div class="tab">
+							<img src="img/course02_05.png" />
+							<span>
+								古筝
+							</span>
+						</div>
+						<div class="tab">
+							<img src="img/course02_07.png" />
+							<span>
+								吉他
+							</span>
+						</div>
+						<div class="tab">
+							<img src="img/course02_09.png" />
+							<span>
+								声乐
+							</span>
+						</div>
+						<div class="tab">
+							<img src="img/course02_11.png" />
+							<span>
+								绘画
+							</span>
+						</div>
+						<div class="tab">
+							<img src="img/course02_18.png" />
+							<span>
+								舞蹈
+							</span>
+						</div>
+						<div class="tab">
+							<img src="img/course02_19.png" />
+							<span>
+								打击乐
+							</span>
+						</div>
+						<div class="tab">
+							<img src="img/course02_20.png" />
+							<span>
+								口才
+							</span>
+						</div>
+						<div class="tab">
+							<img src="img/course02_21.png" />
+							<span>
+								武术
+							</span>
+						</div>
+						<div class="tab">
+							<img src="img/course02_22.png" />
+							<span>
+								全部
+							</span>
+						</div>
+					</div>
+					<div class="course-main">
+						<div class="course-top">
+							学校推荐
+						</div>
+						<div class="course-box">
+							<div class="course-group">
+								<img src="img/back.jpg" class="school-img" />
+								<div class="course-text">
+									<h1>
+										徐州市星海舞蹈艺术中心
+									</h1>
+									<p>
+										<span>
+											徐州市鼓楼区
+										</span>
+									</p>
+									<div class="school-inform">
+										<div class="inform-group">
+											<img src="img/course_12.png" />
+											<span>
+												学员：737
+											</span>
+										</div>
+										<div class="inform-group">
+											<img src="img/course_14.png" />
+											<span>
+												评分：7
+											</span>
+										</div>
+										<div class="inform-group">
+											<img src="img/course_16.png" />
+											<span>
+												热度：328
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="course-group">
+								<img src="img/back.jpg" class="school-img" />
+								<div class="course-text">
+									<h1>
+										徐州市星海舞蹈艺术中心
+									</h1>
+									<p>
+										<span>
+											徐州市鼓楼区
+										</span>
+									</p>
+									<div class="school-inform">
+										<div class="inform-group">
+											<img src="img/course_12.png" />
+											<span>
+												学员：737
+											</span>
+										</div>
+										<div class="inform-group">
+											<img src="img/course_14.png" />
+											<span>
+												评分：7
+											</span>
+										</div>
+										<div class="inform-group">
+											<img src="img/course_16.png" />
+											<span>
+												热度：328
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="course-group">
+								<img src="img/back.jpg" class="school-img" />
+								<div class="course-text">
+									<h1>
+										徐州市星海舞蹈艺术中心
+									</h1>
+									<p>
+										<span>
+											徐州市鼓楼区
+										</span>
+									</p>
+									<div class="school-inform">
+										<div class="inform-group">
+											<img src="img/course_12.png" />
+											<span>
+												学员：737
+											</span>
+										</div>
+										<div class="inform-group">
+											<img src="img/course_14.png" />
+											<span>
+												评分：7
+											</span>
+										</div>
+										<div class="inform-group">
+											<img src="img/course_16.png" />
+											<span>
+												热度：328
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="course-group more">
+								查看更多
+								<img src="img/user_31.gif" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="course-main">
+					<div class="course-top" id="scrolltop">
+						<span class="active">
+							综合推荐
+						</span>
+						<span>
+							艺术动态
+						</span>
+						<span>
+							育儿资讯
+						</span>
+						<div class="mimg-box">
+							<img src="img/more_03.png" class="moreimg" />
+						</div>
+					</div>
+					<div class="course-box newbox">
+						<div class="course-group">
+							<div class="course-text">
+								<h1>
+									陶艺吧后台管理系统培训会在郑州顺利召开陶艺吧后台管理系统培训会在郑州顺利召开
+								</h1>
+								<div class="school-inform">
+									<div class="inform-group">
+										#艺术培训
+									</div>
+									<div class="inform-group">
+										2018.09.15
+									</div>
+								</div>
+							</div>
+							<img src="img/back.jpg" class="school-img" />
+						</div>
+						<div class="course-group">
+							<div class="course-text">
+								<h1>
+									陶艺吧后台管理系统培训会在郑州顺利召开陶艺吧后台管理系统培训会在郑州顺利召开
+								</h1>
+								<div class="school-inform">
+									<div class="inform-group">
+										#艺术培训
+									</div>
+									<div class="inform-group">
+										2018.09.15
+									</div>
+								</div>
+							</div>
+							<img src="img/back.jpg" class="school-img" />
+						</div>
+						<div class="course-group">
+							<div class="course-text">
+								<h1>
+									陶艺吧后台管理系统培训会在郑州顺利召开陶艺吧后台管理系统培训会在郑州顺利召开
+								</h1>
+								<div class="school-inform">
+									<div class="inform-group">
+										#艺术培训
+									</div>
+									<div class="inform-group">
+										2018.09.15
+									</div>
+								</div>
+							</div>
+							<img src="img/back.jpg" class="school-img" />
+						</div>
+						<div class="course-group">
+							<div class="course-text">
+								<h1>
+									陶艺吧后台管理系统培训会在郑州顺利召开陶艺吧后台管理系统培训会在郑州顺利召开
+								</h1>
+								<div class="school-inform">
+									<div class="inform-group">
+										#艺术培训
+									</div>
+									<div class="inform-group">
+										2018.09.15
+									</div>
+								</div>
+							</div>
+							<img src="img/back.jpg" class="school-img" />
+						</div>
+						<div class="course-group">
+							<div class="course-text">
+								<h1>
+									陶艺吧后台管理系统培训会在郑州顺利召开陶艺吧后台管理系统培训会在郑州顺利召开
+								</h1>
+								<div class="school-inform">
+									<div class="inform-group">
+										#艺术培训
+									</div>
+									<div class="inform-group">
+										2018.09.15
+									</div>
+								</div>
+							</div>
+							<img src="img/back.jpg" class="school-img" />
+						</div>
+						<div class="course-group">
+							<div class="course-text">
+								<h1>
+									陶艺吧后台管理系统培训会在郑州顺利召开陶艺吧后台管理系统培训会在郑州顺利召开
+								</h1>
+								<div class="school-inform">
+									<div class="inform-group">
+										#艺术培训
+									</div>
+									<div class="inform-group">
+										2018.09.15
+									</div>
+								</div>
+							</div>
+							<img src="img/back.jpg" class="school-img" />
+						</div>
+						<div class="course-group">
+							<div class="course-text">
+								<h1>
+									陶艺吧后台管理系统培训会在郑州顺利召开陶艺吧后台管理系统培训会在郑州顺利召开
+								</h1>
+								<div class="school-inform">
+									<div class="inform-group">
+										#艺术培训
+									</div>
+									<div class="inform-group">
+										2018.09.15
+									</div>
+								</div>
+							</div>
+							<img src="img/back.jpg" class="school-img" />
+						</div>
+						<div class="course-group">
+							<div class="course-text">
+								<h1>
+									陶艺吧后台管理系统培训会在郑州顺利召开陶艺吧后台管理系统培训会在郑州顺利召开
+								</h1>
+								<div class="school-inform">
+									<div class="inform-group">
+										#艺术培训
+									</div>
+									<div class="inform-group">
+										2018.09.15
+									</div>
+								</div>
+							</div>
+							<img src="img/back.jpg" class="school-img" />
+						</div>
+						<div class="course-group">
+							<div class="course-text">
+								<h1>
+									陶艺吧后台管理系统培训会在郑州顺利召开陶艺吧后台管理系统培训会在郑州顺利召开
+								</h1>
+								<div class="school-inform">
+									<div class="inform-group">
+										#艺术培训
+									</div>
+									<div class="inform-group">
+										2018.09.15
+									</div>
+								</div>
+							</div>
+							<img src="img/back.jpg" class="school-img" />
+						</div>
+						<div class="course-group">
+							<div class="course-text">
+								<h1>
+									陶艺吧后台管理系统培训会在郑州顺利召开陶艺吧后台管理系统培训会在郑州顺利召开
+								</h1>
+								<div class="school-inform">
+									<div class="inform-group">
+										#艺术培训
+									</div>
+									<div class="inform-group">
+										2018.09.15
+									</div>
+								</div>
+							</div>
+							<img src="img/back.jpg" class="school-img" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部导航栏-->
+		<bottom class='bottom'>
+			<div class="bottom-tab" data-target='index'>
+				<img src="img/index01.png" />
+				<span>
+						首页
+					</span>
+			</div>
+			<div class="bottom-tab active" data-target='course'>
+				<img src="img/bottom02-active.png" />
+				<span>
+						课程
+					</span>
+			</div>
+			<div class="bottom-tab" data-target='shop'>
+				<img src="img/index03.png" />
+				<span>
+						商城
+					</span>
+			</div>
+			<div class="bottom-tab" data-target='shopcart'>
+				<img src="img/index04.png" />
+				<span>
+						购物车
+					</span>
+			</div>
+			<div class="bottom-tab" data-target='user'>
+				<img src="img/my.png" />
+				<span>
+						我的
+					</span>
+			</div>
+		</bottom>
+		<script type="text/javascript">
+			document.addEventListener('plusready', onPlusReady, false);
+			// 扩展API加载完毕，现在可以正常调用扩展API
+			function onPlusReady() {
+				plus.geolocation.getCurrentPosition(function(p) {
+					var map = new AMap.Map('container', {
+						zoom: 15,
+						center: [p.coords.longitude, p.coords.latitude]
+					});
+					AMap.service('AMap.Geocoder', function() {
+						geocoder = new AMap.Geocoder({
+							city: "" //城市，默认：“全国”
+						});
+						//		    根据经纬度查地址
+						var lnglatXY = [p.coords.longitude, p.coords.latitude]; //地图上所标点的坐标
+						geocoder.getAddress(lnglatXY, function(status, result) {
+							if(status === 'complete' && result.info === 'OK') {
+								$('#city01').html(result.regeocode.addressComponent.city)
+							} else {
+								//获取地址失败
+								that.city = '获取失败'
+							}
+						});
+					})
+				}, function(e) {
+					that.city = '获取失败'
+				});
+			}
+			$(function() {
+				var index = 0
+				var gallery = mui('.mui-slider');
+				gallery.slider({
+					interval: 3000 //自动轮播周期，若为0则不自动播放，默认为0；
+				});
+				$('.video img').click(function() {
+					$(this).prev().click()
+				})
+				$('video').click(function() {
+					$('.myvideo video').attr('src', $(this).attr('src'))
+					$('.myvideo').show()
+				})
+				$('.myvideo').click(function() {
+					$('.myvideo').hide()
+					$('.myvideo video').attr('src', '')
+				})
+				$('.course-top span').click(function() {
+					index = $('.course-top span').index(this)
+					navactive()
+				})
+				$('.head-setting').click(function(){
+					opennew('search')
+				})
+				$('.wrapper').scroll(function() {
+					if($('#scroll').height() <= $('.wrapper').scrollTop()) {
+						$('#scrolltop').css('position', 'fixed')
+					} else {
+						$('#scrolltop').css('position', 'inherit')
+					}
+				})
+				$('.moreimg').click(function() {
+					bottomshow()
+				})
+				$('.bottom-nav').click(function() {
+					bottomshow()
+				})
+				$('.bnav-group').click(function() {
+					index = $('.bnav-group').index(this)
+					navactive()
+				})
+				$('.bottom-tab').click(function() {
+					opennew($(this).attr('data-target'))
+				})
+				$('.tabnav .tab').click(function(){
+					opennew('courselist')
+				})
+				$('.more').click(function(){
+					opennew('courselist')
+				})
+				$('.course-group').click(function(){
+					opennew('schooldetail')
+				})
+				$('#city').click(function(){
+					opennew('city')
+				})
+				function opennew(target) {
+					mui.openWindow({
+						url: '' + target + '.html',
+						id: '' + target + ''
+					})
+				}
+
+				function navactive() {
+					$('.course-top span').removeClass('active')
+					$('.course-top span').eq(index).addClass('active')
+					$('.bnav-group').removeClass('activenav')
+					$('.bnav-group').eq(index).addClass('activenav')
+				}
+
+				function bottomshow() {
+					if($('.course .bottom-nav').css('bottom') != '0px') {
+						$('.course .bottom-nav').css('bottom', '0')
+					} else {
+						$('.course .bottom-nav').css('bottom', '-100%')
+					}
+				}
+			})
+		</script>
+	</body>
+
+</html>

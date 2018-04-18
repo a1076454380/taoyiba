@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.4&key=3adc59b361b877d943cda0ce50b9b4da"></script>
+		<script src="http://webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="wrapper school ratingall">
+			<!--视频全屏播放容器-->
+			<div class="myvideo">
+				<video autoplay="autoplay" controls="controls"></video>
+			</div>
+			<header class="head">
+				<span class="header-back mui-action-back">
+					<img src="img/detail_03.png"/>
+				</span>
+				<div>
+					评论
+				</div>
+				<span>
+					
+				</span>
+			</header>
+			<div class="main">
+				<div class="rating-nav">
+					<div class="nav-tab">
+						<span class="score">
+							5.00
+						</span>
+						<span class="text">
+							服务态度
+						</span>
+					</div>
+					<div class="nav-tab">
+						<span class="score">
+							5.00
+						</span>
+						<span class="text">
+							教学质量
+						</span>
+					</div>
+					<div class="nav-tab">
+						<span class="score">
+							5.00
+						</span>
+						<span class="text">
+							教学环境
+						</span>
+					</div>
+				</div>
+				<div class="rating-main">
+					<div class="school-group">
+						<div class="rating-group">
+							<img src="img/back.jpg" class="avatar" />
+							<div class="rating-main">
+								<div class="rating-name">
+									<span>
+											套一百
+										</span>
+									<span class="star-box">
+											<img src="img/school02_03.png"/>
+											<img src="img/school02_03.png"/>
+											<img src="img/school02_03.png"/>
+											<img src="img/school02_03.png"/>
+											<img src="img/school02_03.png"/>
+										</span>
+								</div>
+								<div class="rating-text">
+									很好焦点家私电机大家私电机熊郏敖
+								</div>
+								<div class="rating-inform">
+									<span>
+											精品拉丁舞班
+										</span>
+									<span>
+											2017/11/24
+										</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

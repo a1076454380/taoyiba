@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+	</head>
+
+	<body>
+		<div class="wrapper orderhistory">
+			<!--提示框-->
+			<div class="myalert">
+				<div class="alert-main">
+					<div class="text">
+						您确定取消此订单？
+					</div>
+					<div class="setting">
+						<div id="no">
+							取消
+						</div>
+						<div id="yes">
+							确定
+						</div>
+					</div>
+				</div>
+			</div>
+			<header class="head">
+				<span class="header-back mui-action-back">
+					<img src="img/detail_03.png"/>
+				</span>
+				<div>
+					我的订单
+				</div>
+				<span>
+					<img src="img/shop01.png" class="news"/>
+				</span>
+			</header>
+			<div class="main">
+				<div class="top-nav">
+					<div class="nav-tab active">
+						全部
+					</div>
+					<div class="nav-tab">
+						代付款
+					</div>
+					<div class="nav-tab">
+						待收货
+					</div>
+					<div class="nav-tab">
+						已完成
+					</div>
+					<div class="nav-tab">
+						已取消
+					</div>
+				</div>
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="order-group">
+								<div class="shop-name">
+									<span class="name-left">
+										<img src="img/cart_03.png"/>
+										<span>
+											港口贸易
+										</span>
+										<img src="img/user_31.gif"/>
+									</span>
+									<div class="name-right">
+										等待付款
+									</div>
+								</div>
+								<div class="order-main">
+									<img src="img/course_09.png"/>
+									<h1>
+										防晒喷雾 韩国JM solution海洋珍珠防晒喷雾女美白防水spf50  泰国正品金银色面膜
+									</h1>
+								</div>
+								<div class="order-money">
+									共1件商品   合计:¥70.00
+								</div>
+								<div class="order-setting">
+									<span class="cancel">
+										取消订单
+									</span>
+									<span class="pay">
+										去支付
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/orderhistory_03.png" class="noorder"/>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/orderhistory_03.png" class="noorder"/>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/orderhistory_03.png" class="noorder"/>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/orderhistory_03.png" class="noorder"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function() {
+				var mySwiper;
+				mySwiper = new Swiper('.swiper-container', {
+					nested: true,
+					on: {
+						slideChangeTransitionEnd: function() {
+							$('.top-nav .nav-tab').removeClass('active')
+							$('.top-nav .nav-tab').eq(this.activeIndex).addClass('active')
+						}
+					},
+				})
+				$('.top-nav .nav-tab').click(function(){
+					$('.top-nav .nav-tab').removeClass('active')
+					$(this).addClass('active')
+					mySwiper.slideTo($('.nav-tab').index(this), 1000, false); 
+				})
+				$('.name-left').click(function(){
+					opennew('goodsdetail')
+				})
+				$('.order-main').click(function(){
+					opennew('goodsdetail')
+				})
+				$('.noorder').click(function(){
+					$('.myalert').css('display','flex')
+				})
+				$('#no').click(function(){
+					$('.myalert').hide()
+				})
+//				取消订单
+				$('#yes').click(function(){
+					$('.myalert').hide()
+				})
+				$('.cancel').click(function(){
+					$('.myalert').css('display','flex')
+				})
+				$('.pay').click(function(){
+					opennew('pay')
+				})
+				$('.news').click(function(){
+					opennew('information')
+				})
+				function opennew(target) {
+					mui.openWindow({
+						url: '' + target + '.html',
+						id: '' + target + ''
+					})
+				}
+			})
+		</script>
+	</body>
+
+</html>

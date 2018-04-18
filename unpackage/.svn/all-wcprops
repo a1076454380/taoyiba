@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/tyb_mui/!svn/ver/18/taoyiba/unpackage
+END
+.dependencies
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tyb_mui/!svn/ver/2/taoyiba/unpackage/.dependencies
+END
+.confirmed_dependencies
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tyb_mui/!svn/ver/46/taoyiba/unpackage/.confirmed_dependencies
+END

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="wrapper course newslist">
+			<header class="head">
+				<span class="header-back mui-action-back">
+					<img src="img/detail_03.png"/>
+				</span>
+				<div>
+					学校文章
+				</div>
+				<span>
+				</span>
+			</header>
+			<div class="main">
+				<div class="news-group">
+					<div class="news-text">
+						<h1>
+							舞蹈，选择了就应该坚持舞蹈，选择了就应该坚持舞蹈，选择了就应该坚持舞蹈，选择了就应该坚持舞蹈，选择了就应该坚持舞蹈，选择了就应该坚持
+						</h1>
+						<div class="news-inform">
+							<span>
+								#艺术动态
+							</span>
+							<span>
+								2017/07/12
+							</span>
+						</div>
+					</div>
+					<img src="img/back.jpg"/>
+				</div>
+				<div class="news-group">
+					<div class="news-text">
+						<h1>
+							舞蹈，选择了就应该坚持舞蹈，选择了就应该坚持舞蹈，选择了就应该坚持舞蹈，选择了就应该坚持舞蹈，选择了就应该坚持舞蹈，选择了就应该坚持
+						</h1>
+						<div class="news-inform">
+							<span>
+								#艺术动态
+							</span>
+							<span>
+								2017/07/12
+							</span>
+						</div>
+					</div>
+					<img src="img/back.jpg"/>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$('.news-group').click(function(){
+					mui.openWindow({
+						url:'newsetail.html',
+						id:'newsetail'
+					})
+				})
+			})
+		</script>
+	</body>
+</html>

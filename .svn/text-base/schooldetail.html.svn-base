@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+	</head>
+	<style type="text/css">
+		#course {
+			display: none;
+		}
+	</style>
+
+	<body>
+		<div class="wrapper course school">
+			<!--视频全屏播放容器-->
+			<div class="myvideo">
+				<video autoplay="autoplay" controls="controls"></video>
+			</div>
+			<header class="head">
+				<span class="header-back mui-action-back">
+					<img src="img/detail_03.png"/>
+				</span>
+				<div>
+					<strong class="active" data-type='detail'>
+						详情
+					</strong>
+					<strong data-type='course'>
+						课程
+					</strong>
+				</div>
+				<span>
+					<img src="img/school_03.png" class="collect"/>
+					<!--<img src="img/school_05.png"/>-->
+				</span>
+			</header>
+			<!--详情-->
+			<div class="main" id="detail">
+				<div id="scroll">
+					<!--主体轮播图-->
+					<div class="mui-slider" id="slide01">
+						<div class="mui-slider-group">
+							<div class="mui-slider-item">
+								<a href="#"><img src="img/course_06.png" /></a>
+							</div>
+							<div class="mui-slider-item video">
+								<video poster="img/back.jpg" src="img/UC-download.mp4"></video>
+								<img src="img/play.png" />
+							</div>
+							<div class="mui-slider-item">
+								<a href="#"><img src="img/course_06.png" /></a>
+							</div>
+							<div class="mui-slider-item">
+								<a href="#"><img src="img/course_06.png" /></a>
+							</div>
+						</div>
+					</div>
+					<div class="white">
+						<div class="school-name">
+							<img src="img/back.jpg" />
+							<sapn>
+								徐州市小海螺舞蹈工作室
+							</sapn>
+						</div>
+						<div class="course-num">
+							<div class="num">
+								<span>
+								18
+							</span>
+								<sapn class='grey'>
+									课程数
+								</sapn>
+							</div>
+							<div class="num">
+								<span>
+								654
+							</span>
+								<sapn class='grey'>
+									学员数
+								</sapn>
+							</div>
+							<div class="num">
+								<span>
+								291
+							</span>
+								<sapn class='grey'>
+									机构热度
+								</sapn>
+							</div>
+							<a href="tel:15252163775"><img src="img/school_12.png" /></a>
+						</div>
+						<div class="faith">
+							<div class="faith-group">
+								<img src="img/school_16.png" />
+								<span>
+								诚信保证
+							</span>
+							</div>
+							<div class="faith-group">
+								<img src="img/school_18.png" />
+								<span>
+								优秀机构
+							</span>
+							</div>
+							<div class="faith-group">
+								<img src="img/school_20.png" />
+								<span>
+								返艺宝卷
+							</span>
+							</div>
+						</div>
+					</div>
+					<div class="school-group" style="padding-bottom: .2rem;">
+						<div class="group-title">
+							<div class="group-inner">
+								学校简介
+							</div>
+						</div>
+						<div class="group-text">
+							徐州市金沙桥小海螺爱上地哦啊是近代觉得我已大声叫地哦啊叫道具到ID就爱搜到就爱哦无敌哦到圣诞节哦艾薇都和未达到欧三等奖撒娇地哦啊大脚 徐州市金沙桥小海螺爱上地哦啊是近代觉得我已大声叫地哦啊叫道具到ID就爱搜到就爱哦无敌哦到圣诞节哦艾薇都和未达到欧三等奖撒娇地哦啊大脚
+						</div>
+						<img src="img/course_03.png" class="text-arr" />
+					</div>
+					<div class="school-group">
+						<div class="group-title">
+							<div class="group-inner">
+								学校地址
+							</div>
+						</div>
+						<div class="group-main">
+							<div class="group-text">
+								徐州市金沙桥小海螺
+							</div>
+							<div class="group-adress">
+								<img src="img/school_25.png" />
+								<sapn>
+									1248.2KM
+								</sapn>
+							</div>
+						</div>
+					</div>
+					<div class="school-group">
+						<div class="group-title">
+							<div class="group-inner">
+								学校风采
+							</div>
+						</div>
+						<div class="group-video">
+							<div class="video-group">
+								<video src="img/UC-download.mp4" poster="img/back.jpg"></video>
+								<img src="img/play.png" />
+							</div>
+							<div class="video-group">
+								<video src="img/UC-download.mp4" poster="img/back.jpg"></video>
+								<img src="img/play.png" />
+							</div>
+						</div>
+						<div class="more show">
+							<span>
+								查看更多
+							</span>
+							<img src="img/user_31.gif" />
+						</div>
+					</div>
+					<div class="school-group">
+						<div class="group-title">
+							<div class="group-inner">
+								热门文章
+							</div>
+						</div>
+						<div class="news-group">
+							<div class="news-top">
+								孩子上舞蹈课文化课拉下，真的是这样嘛？？
+							</div>
+							<div class="img-box">
+								<img src="img/back.jpg" />
+								<img src="img/back.jpg" />
+								<img src="img/back.jpg" />
+							</div>
+							<div class="new-info">
+								<div>
+									#艺术动态
+								</div>
+								<span>
+									2017/08/12
+								</span>
+							</div>
+						</div>
+						<div class="more newslist">
+							<span>
+								查看更多
+							</span>
+							<img src="img/user_31.gif" />
+						</div>
+					</div>
+					<div class="school-group">
+						<div class="group-title">
+							<div class="group-inner">
+								学校评论
+							</div>
+						</div>
+						<div class="rating-group">
+							<img src="img/back.jpg" class="avatar" />
+							<div class="rating-main">
+								<div class="rating-name">
+									<span>
+										套一百
+									</span>
+									<span class="star-box">
+										<img src="img/school02_03.png"/>
+										<img src="img/school02_03.png"/>
+										<img src="img/school02_03.png"/>
+										<img src="img/school02_03.png"/>
+										<img src="img/school02_03.png"/>
+									</span>
+								</div>
+								<div class="rating-text">
+									很好焦点家私电机大家私电机熊郏敖
+								</div>
+								<div class="rating-inform">
+									<span>
+										精品拉丁舞班
+									</span>
+									<span>
+										2017/11/24
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="more schoolrating">
+							<span>
+								查看更多
+							</span>
+							<img src="img/user_31.gif" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--课程-->
+			<div class="main" id="course">
+				<div class="course-nav">
+					<div class="nav-tab">
+						<span class="active">
+							精品
+						</span>
+					</div>
+					<div class="nav-tab">
+						<span>
+							其他
+						</span>
+					</div>
+				</div>
+				<div class="swiper-container" id="slide02">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="course-group">
+								<div class="course-top">
+									<span class="course-name">
+										中国舞考学一对一小课
+									</span>
+									<span class="course-year">
+										年卡
+									</span>
+								</div>
+								<div class="course-type">
+									# 舞蹈
+								</div>
+								<div class="course-money">
+									<span class="price">
+										¥7200.00
+									</span>
+									<span class="buy-num">
+										15人已购买
+									</span>
+								</div>
+							</div>
+							<div class="course-group overdue">
+								<div class="course-top">
+									<span class="course-name">
+										中国舞考学一对一小课
+									</span>
+									<span class="course-year">
+										年卡
+									</span>
+								</div>
+								<div class="course-type">
+									<span>
+										# 舞蹈
+									</span>
+									<sapn>
+										已完结
+									</sapn>
+								</div>
+								<div class="course-money">
+									<span class="price">
+										¥7200.00
+									</span>
+									<span class="buy-num">
+										15人已购买
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="course-group overdue">
+								<div class="course-top">
+									<span class="course-name">
+										中国舞考学一对一小课
+									</span>
+									<span class="course-year">
+										年卡
+									</span>
+								</div>
+								<div class="course-type">
+									<span>
+										# 舞蹈
+									</span>
+									<sapn>
+										已完结
+									</sapn>
+								</div>
+								<div class="course-money">
+									<span class="price">
+										¥7200.00
+									</span>
+									<span class="buy-num">
+										15人已购买
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			$(function() {
+				var index = 0
+				var gallery = mui('#slider01');
+				gallery.slider({
+					interval: 3000 //自动轮播周期，若为0则不自动播放，默认为0；
+				});
+				var mySwiper;
+				function opennew(target) {
+					mui.openWindow({
+						url: '' + target + '.html',
+						id: '' + target + ''
+					})
+				}
+				$('.group-adress').click(function() {
+					opennew('schoolmap')
+				})
+				$('.schoolrating').click(function() {
+					opennew('schoolrating')
+				})
+				$('.show').click(function() {
+					opennew('show')
+				})
+				$('.newslist').click(function() {
+					opennew('newslist')
+				})
+				$('.video img').click(function() {
+					$(this).prev().click()
+				})
+				$('video').click(function() {
+					$('.myvideo video').attr('src', $(this).attr('src'))
+					$('.myvideo').show()
+				})
+				$('.myvideo').click(function() {
+					$('.myvideo').hide()
+					$('.myvideo video').attr('src', '')
+				})
+				$('.text-arr').click(function() {
+					if($('.group-text').attr('class') == 'group-text') {
+						$('.group-text').attr('class', 'group-text textauto')
+						$(this).attr('src', 'img/arrtop.png')
+					} else {
+						$('.group-text').attr('class', 'group-text')
+						$(this).attr('src', 'img/course_03.png')
+					}
+				})
+				$('.head strong').click(function() {
+					$('.head strong').removeClass('active')
+					$(this).addClass('active')
+					$('.main').hide()
+					$('#' + $(this).attr('data-type') + '').show()
+					mySwiper = new Swiper('.swiper-container', {
+						nested: true,
+						on: {
+							slideChangeTransitionEnd: function() {
+								$('.nav-tab span').removeClass('active')
+								$('.nav-tab span').eq(this.activeIndex).addClass('active')
+							}
+						},
+					})
+				})
+				$('.nav-tab').click(function() {
+					$('.nav-tab span').removeClass('active')
+					$(this).children().addClass('active')
+					mySwiper.slideTo($('.nav-tab').index(this), 1000, false); //切
+				})
+				$('.collect').click(function(){
+					if($(this).attr('src')=='img/school_03.png'){
+						$(this).attr('src','img/school02_03.png')
+					}else{
+						$(this).attr('src','img/school_03.png')
+					}
+				})
+			})
+		</script>
+	</body>
+
+</html>

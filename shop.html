@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="wrapper index shop" id="app">
+			<div class="myvideo">
+				<video autoplay="autoplay" controls="controls"></video>
+			</div>
+			<!--顶部弹出分类-->
+			<div class="alert">
+				<div class="alert-main">
+					<div class="alert-top">
+						<span>
+							全部
+						</span>
+						<span>
+							<img src="img/arrtop.png"/>
+						</span>
+					</div>
+					<div class="alert-group">
+						<img src="img/shopnav_06.png" />
+						<span>
+							家用电器
+						</span>
+					</div>
+					<div class="alert-group">
+						<img src="img/shopnav_08.png" />
+						<span>
+							数码产品
+						</span>
+					</div>
+					<div class="alert-group">
+						<img src="img/shopnav_10.png" />
+						<span>
+							居家生活
+						</span>
+					</div>
+					<div class="alert-group">
+						<img src="img/shopnav_06.png" />
+						<span>
+							衣帽穿戴
+						</span>
+					</div>
+					<div class="alert-group">
+						<img src="img/shopnav_16.png" />
+						<span>
+							食品超市
+						</span>
+					</div>
+					<div class="alert-group">
+						<img src="img/shopnav_17.png" />
+						<span>
+							美妆洗护
+						</span>
+					</div>
+					<div class="alert-group">
+						<img src="img/shopnav_18.png" />
+						<span>
+							儿童专区
+						</span>
+					</div>
+					<div class="alert-group">
+						<img src="img/shopnav_19.png" />
+						<span>
+							综合分类
+						</span>
+					</div>
+				</div>
+			</div>
+			<!--顶部搜索框-->
+			<header class="head">
+				<form action="">
+					<img src="img/shop02.png" />
+					<input type="text" placeholder="搜一下，发现精彩" />
+				</form>
+				<!--<img src="img/user_43.gif" />-->
+				<img src="img/shop01.png" onclick="opennew('information')"/>
+			</header>
+			<div class="main">
+				<div class="top-nav">
+					<div class="mui-slider">
+						<div class="mui-slider-group">
+							<div class="mui-slider-item">
+								家用电器
+							</div>
+							<div class="mui-slider-item">
+								数码产品
+							</div>
+							<div class="mui-slider-item">
+								居家生活
+							</div>
+							<div class="mui-slider-item">
+								衣帽穿戴
+							</div>
+							<div class="mui-slider-item">
+								食品超市
+							</div>
+							<div class="mui-slider-item">
+								美妆洗护
+							</div>
+							<div class="mui-slider-item">
+								儿童专区
+							</div>
+							<div class="mui-slider-item">
+								综合分类
+							</div>
+						</div>
+					</div>
+					<img src="img/course_03.png" id="more" />
+				</div>
+				<!--主体轮播图-->
+				<div class="mui-slider" id="myslide">
+					<div class="mui-slider-group">
+						<div class="mui-slider-item">
+							<a href="#"><img src="img/main.jpg" /></a>
+						</div>
+						<div class="mui-slider-item video">
+							<video poster="img/back.jpg" src="img/UC-download.mp4"></video>
+							<img src="img/play.png" />
+						</div>
+						<div class="mui-slider-item">
+							<a href="#"><img src="img/main.jpg" /></a>
+						</div>
+						<div class="mui-slider-item">
+							<a href="#"><img src="img/main.jpg" /></a>
+						</div>
+					</div>
+				</div>
+				<div class="index-title" style="color: #666666;">
+					<span style="justify-content: flex-start;">
+						<img src="img/shop04_03.png" style="margin-right: .1rem;"/>
+						特卖商品
+					</span>
+					<span>
+						更多
+						<img src="img/indexarr.png"/>
+					</span>
+				</div>
+				<div class="index-main">
+					<div class="index-tab">
+						<img src="img/dl_02.gif" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+					</div>
+					<div class="index-tab">
+						<img src="img/dl_04.gif" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+					</div>
+					<div class="index-tab">
+						<img src="img/dl_06.gif" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+					</div>
+					<div class="index-tab">
+						<img src="img/dl_04.gif" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+					</div>
+					<div class="index-tab">
+						<img src="img/dl_06.gif" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+					</div>
+					<div class="index-tab">
+						<img src="img/dl_02.gif" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+					</div>
+				</div>
+				<!--分销商品-->
+				<div class="index-title">
+					<span style="justify-content:flex-start;color: #666666;">
+						<img src="img/shop03_03.png" style="margin-right: .1rem;"/>分销商品
+					</span>
+				</div>
+				<div class="mui-slider bottom-slide">
+					<div class="mui-slider-group">
+						<div class="mui-slider-item index-tab02">
+							<img src="img/index02_05.gif" />
+							<div class="price">
+								¥792
+							</div>
+							<div class="oldprice">
+								¥985
+							</div>
+						</div>
+						<div class="mui-slider-item index-tab02">
+							<img src="img/index02_07.gif" />
+							<div class="price">
+								¥792
+							</div>
+							<div class="oldprice">
+								¥985
+							</div>
+						</div>
+						<div class="mui-slider-item index-tab02">
+							<img src="img/index02_05.gif" />
+							<div class="price">
+								¥792
+							</div>
+							<div class="oldprice">
+								¥985
+							</div>
+						</div>
+						<div class="mui-slider-item index-tab02">
+							<img src="img/index02_06.gif" />
+							<div class="price">
+								¥792
+							</div>
+							<div class="oldprice">
+								¥985
+							</div>
+						</div>
+						<div class="mui-slider-item index-tab02">
+							<img src="img/index02_05.gif" />
+							<div class="price">
+								¥792
+							</div>
+							<div class="oldprice">
+								¥985
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--人气推荐-->
+				<div class="index-title">
+					<span></span>
+					<img src="img/shop03_07.png"/>
+					<span>
+					</span>
+				</div>
+				<div class="index-main heat">
+					<div class="index-tab">
+						<img src="img/shop05_03.png" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+						<div class="sales">
+							销量:11
+						</div>
+					</div>
+					<div class="index-tab">
+						<img src="img/shop05_03.png" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+						<div class="sales">
+							销量:11
+						</div>
+					</div>
+					<div class="index-tab">
+						<img src="img/shop05_03.png" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+						<div class="sales">
+							销量:11
+						</div>
+					</div>
+					<div class="index-tab">
+						<img src="img/shop05_03.png" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+						<div class="sales">
+							销量:11
+						</div>
+					</div>
+					<div class="index-tab">
+						<img src="img/shop05_03.png" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+						<div class="sales">
+							销量:11
+						</div>
+					</div>
+					<div class="index-tab">
+						<img src="img/shop05_03.png" />
+						<div class="title">
+							全套幼儿园10.00庆区管理月暗色调窘境
+						</div>
+						<div class="money">
+							<span>
+								¥46
+							</span> +卷40
+						</div>
+						<div class="sales">
+							销量:11
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--底部导航栏-->
+			<bottom class='bottom'>
+				<div class="bottom-tab" data-target='index'>
+					<img src="img/index01.png" />
+					<span>
+						首页
+					</span>
+				</div>
+				<div class="bottom-tab" data-target='course'>
+					<img src="img/bottom02.png" />
+					<span>
+						课程
+					</span>
+				</div>
+				<div class="bottom-tab active" data-target='shop'>
+					<img src="img/bottom03-active.png" />
+					<span>
+						商城
+					</span>
+				</div>
+				<div class="bottom-tab"  data-target='shopcart'>
+					<img src="img/index04.png" />
+					<span>
+						购物车
+					</span>
+				</div>
+				<div class="bottom-tab" data-target='user'>
+					<img src="img/my.png" />
+					<span>
+						我的
+					</span>
+				</div>
+			</bottom>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function() {
+			var gallery = mui('#myslide');
+			gallery.slider({
+				interval: 3000 //自动轮播周期，若为0则不自动播放，默认为0；
+			});
+
+			function plusReady() {
+				// 弹出系统等待对话框
+				var w = plus.nativeUI.showWaiting("数据加载中...");
+			}
+			if(window.plus) {
+				plusReady();
+			} else {
+				document.addEventListener("plusready", plusReady, false);
+			}
+			setTimeout(function() {
+				plus.nativeUI.closeWaiting()
+			}, 1000)
+			$('.bottom-tab').click(function() {
+				opennew($(this).attr('data-target'))
+			})
+
+			function opennew(target) {
+				mui.openWindow({
+					url: '' + target + '.html',
+					id: '' + target + ''
+				})
+			}
+			$('#more').click(function() {
+				$('.alert').css('top', '0')
+			})
+			$('.alert').click(function() {
+				$('.alert').css('top', '-100%')
+			})
+			$('.video img').click(function() {
+				$(this).prev().click()
+			})
+			$('video').click(function() {
+				$('.myvideo video').attr('src', $(this).attr('src'))
+				$('.myvideo').show()
+			})
+			$('.myvideo').click(function() {
+				$('.myvideo').hide()
+				$('.myvideo video').attr('src', '')
+			})
+		})
+	</script>
+
+</html>

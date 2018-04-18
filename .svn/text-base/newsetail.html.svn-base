@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<style type="text/css">
+		html,body{background: white;}
+	</style>
+	<body>
+		<div class="wrapper school newsdetil">
+			<header class="head">
+				<span class="header-back mui-action-back">
+					<img src="img/detail_03.png"/>
+				</span>
+				<div>
+					资讯
+				</div>
+				<span>
+					<img src="img/school_03.png"/>
+					<!--<img src="img/school_05.png"/>-->
+				</span>
+			</header>
+			<div class="main">
+				<div class="detail-name">
+					舞蹈，选择了就该坚持！
+				</div>
+				<div class="detail-school">
+					<img src="img/back.jpg"/>
+					<div class="school-inform">
+						<div class="school-names">
+							租后是小海螺舞蹈工作室
+						</div>
+						<div class="school-data">
+							<span>
+								2017-01-25
+							</span>
+							<span>
+								57人阅
+							</span>
+						</div>
+					</div>
+				</div>
+				<p>
+					阿呆偶滴哦点击爱哦到静安寺的家教及哦啊啥带哦我的骄傲递减和欧地哦啊啥地哦啊我的囧囧的奇偶埃及山东i1i11阿萨德靠谱我恐怕靠点谱
+				</p>
+				<img src="img/course_09.png" class="new-img"/>
+			</div>
+		</div>
+	</body>
+</html>

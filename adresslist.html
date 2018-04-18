@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wrapper adresslist">
+			<!--提示框-->
+			<div class="myalert">
+				<div class="alert-main">
+					<div class="text">
+						确定删除这个地址吗？
+					</div>
+					<div class="setting">
+						<div id="no">
+							取消
+						</div>
+						<div id="yes">
+							确定
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="head">
+				<span class="header-back mui-action-back">
+					<img src="img/detail_03.png"/>
+				</span>
+				<div>
+					收货地址
+				</div>
+				<span>
+					
+				</span>
+			</div>
+			<div class="main">
+				<div class="adress-group">
+					<div class="phone">
+						<span>
+							闫泽宇
+						</span>
+						<span>
+							15*****58586
+						</span>
+					</div>
+					<div class="detail">
+						嘉高速二横徐州阿迪王
+					</div>
+					<div class="setting">
+						<span>
+							<span class="orice-box">
+								<img src="img/register_07.png" class="oriceimg"/>
+							</span>
+							默认地址
+						</span>
+						<div class="setting-right">
+							<div class="editor" data-id='Hk566'>
+								<img src="img/adress_03.png"/>
+								编辑
+							</div>
+							<div class="delete">
+								<img src="img/adress_05.png"/>
+								删除
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="adress-group">
+					<div class="phone">
+						<span>
+							闫泽宇
+						</span>
+						<span>
+							15*****58586
+						</span>
+					</div>
+					<div class="detail">
+						嘉高速二横徐州阿迪王
+					</div>
+					<div class="setting">
+						<span>
+							<span class="orice-box active">
+								<img src="img/register_07.png" class="oriceimg"/>
+							</span>
+							默认地址
+						</span>
+						<div class="setting-right">
+							<div class="editor" data-id='Hk566'>
+								<img src="img/adress_03.png"/>
+								编辑
+							</div>
+							<div class="delete">
+								<img src="img/adress_05.png"/>
+								删除
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom" onclick="opennew('addadress')">
+				<div>
+					<img src="img/addwhite.png"/>新建地址
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			function opennew(target) {
+				mui.openWindow({
+					url: '' + target + '.html',
+					id: '' + target + ''
+				})
+			}
+			$(function(){
+				localStorage.removeItem('adressid')
+				$('.orice').click(function(){
+					$(this).hide()
+					$('.oriceimg').show()
+				})
+				$('.delete').click(function(){
+					$('.myalert').css('display','flex')
+				})
+				$('#no').click(function(){
+					$('.myalert').hide()
+				})
+				$('#yes').click(function(){
+					$('.myalert').hide()
+					mui.toast('删除成功')
+				})
+				$('.editor').click(function(){
+					localStorage.setItem('adressid',$(this).attr('data-id'))
+					opennew('addadress')
+				})
+				$('.main').on('click','.orice-box',function(){
+					$('.orice-box').removeClass('active')
+					$(this).addClass('active')
+				})
+			})
+		</script>
+	</body>
+</html>

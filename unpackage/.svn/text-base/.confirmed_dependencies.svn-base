@@ -1,0 +1,63 @@
+{
+	"index.html": {
+		"refer": [
+			"scan.html",
+			"course.html",
+			"shop.html",
+			"user.html",
+			"cart.html"
+		],
+		"resources": []
+	},
+	"user.html": {
+		"refer": [
+			"index.html",
+			"orderhistory.html",
+			"cart.html",
+			"mycourse.html",
+			"my-cart.html",
+			"my-collect.html"
+		],
+		"resources": []
+	},
+	"course.html": {
+		"refer": [
+			"index.html",
+			"schooldetail.html",
+			"shop.html"
+		],
+		"resources": []
+	},
+	"login.html": {
+		"refer": [
+			"register.html",
+			"login.html",
+			"newlogin.html"
+		],
+		"resources": []
+	},
+	"register.html": {
+		"refer": [
+			"registernew.html"
+		],
+		"resources": []
+	},
+	"schooldetail.html": {
+		"refer": [
+			"schoolmap.html",
+			"show.html",
+			"newslist.html",
+			"schoolrating.html"
+		]
+	},
+	"shopcart.html": {
+		"refer": [
+			"user.html"
+		]
+	},
+	"shop.html": {
+		"refer": [
+			"shopcart.html"
+		]
+	}
+}

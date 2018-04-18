@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.4&key=3adc59b361b877d943cda0ce50b9b4da"></script>
+		<script src="http://webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="wrapper course results">
+			<header class="head">
+				<span class="header-back mui-action-back">
+					<img src="img/detail_03.png"/>
+				</span>
+				<div>
+					搜索结果
+				</div>
+				<span></span>
+			</header>
+			<div class="main">
+				<div id="scroll">
+					<div class="course-main">
+						<div class="course-box">
+							<div class="course-group">
+								<img src="img/back.jpg" class="school-img" />
+								<div class="course-text">
+									<h1>
+										徐州市星海舞蹈艺术中心
+									</h1>
+									<p>
+										<span>
+											徐州市鼓楼区
+										</span>
+									</p>
+									<div class="school-inform">
+										<div class="inform-group">
+											<img src="img/course_12.png" />
+											<span>
+												学员：737
+											</span>
+										</div>
+										<div class="inform-group">
+											<img src="img/course_14.png" />
+											<span>
+												评分：7
+											</span>
+										</div>
+										<div class="inform-group">
+											<img src="img/course_16.png" />
+											<span>
+												热度：328
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="course-group">
+								<img src="img/back.jpg" class="school-img" />
+								<div class="course-text">
+									<h1>
+										徐州市星海舞蹈艺术中心
+									</h1>
+									<p>
+										<span>
+											徐州市鼓楼区
+										</span>
+									</p>
+									<div class="school-inform">
+										<div class="inform-group">
+											<img src="img/course_12.png" />
+											<span>
+												学员：737
+											</span>
+										</div>
+										<div class="inform-group">
+											<img src="img/course_14.png" />
+											<span>
+												评分：7
+											</span>
+										</div>
+										<div class="inform-group">
+											<img src="img/course_16.png" />
+											<span>
+												热度：328
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="course-group">
+								<img src="img/back.jpg" class="school-img" />
+								<div class="course-text">
+									<h1>
+										徐州市星海舞蹈艺术中心
+									</h1>
+									<p>
+										<span>
+											徐州市鼓楼区
+										</span>
+									</p>
+									<div class="school-inform">
+										<div class="inform-group">
+											<img src="img/course_12.png" />
+											<span>
+												学员：737
+											</span>
+										</div>
+										<div class="inform-group">
+											<img src="img/course_14.png" />
+											<span>
+												评分：7
+											</span>
+										</div>
+										<div class="inform-group">
+											<img src="img/course_16.png" />
+											<span>
+												热度：328
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function() {
+				function opennew(target) {
+					mui.openWindow({
+						url: '' + target + '.html',
+						id: '' + target + ''
+					})
+				}
+			})
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wrapper order">
+			<div class="head">
+				<span class="header-back mui-action-back">
+					<img src="img/detail_03.png"/>
+				</span>
+				<div>
+					填写订单
+				</div>
+				<span>
+					
+				</span>
+			</div>
+			<div class="main">
+				<div class="order-group">
+					<div class="adress-box" onclick="opennew('adresslist')">
+						<img src="img/order_03.png"/>
+						<div class="adress">
+							<div class="adrss-phone">
+								<span>156254598255</span>
+								<span>闫泽宇</span>
+							</div>
+							<div class="adrss-phone">
+								江苏省徐州市铜山区单集镇
+							</div>
+						</div>
+						<img src="img/user_31.gif"/>
+					</div>
+					<div class="goods-box">
+						<img src="img/course_09.png"/>
+						<div class="goods-inform">
+							<h1>
+								全套10册少儿英语啊二等奖爱哦的骄傲激动死偶觉得就爱哦的骄傲IE董鸡鸡偶家
+							</h1>
+							<p>
+								一宝卷折扣金额:40.00
+							</p>
+							<div class="order-price">
+								<span>
+									<strong>
+										¥86.00
+									</strong>
+									(原价)
+								</span>
+								<span>
+									数量:  x1
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="order-group">
+					<div class="price-group">
+						<span>
+							艺宝卷
+						</span>
+						<span>
+							已选择0.0
+							<img src="img/user_31.gif"/>
+						</span>
+					</div>
+					<textarea placeholder="给商家留言...(选填 200字以内)"></textarea>
+				</div>
+				<div class="order-group">
+					<div class="price-group">
+						<span>
+							商品金额：
+						</span>
+						<span>
+							<strong>
+								¥86.00
+							</strong>
+						</span>
+					</div>
+					<div class="price-group">
+						<span>
+							运费：
+						</span>
+						<span>
+							<strong>
+								¥0.00
+							</strong>
+						</span>
+					</div>
+					<div class="price-group">
+						<span>
+							卷抵金额：
+						</span>
+						<span>
+							<strong>
+								- ¥0.00
+							</strong>
+						</span>
+					</div>
+					<div class="price-group">
+						<span>
+							实增积分
+						</span>
+						<span>
+							<strong>
+								0
+							</strong>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<span>
+					实付款: <strong>¥86.00</strong>
+				</span>
+				<div onclick="opennew('pay')">
+					提交订单
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		function opennew(target) {
+				mui.openWindow({
+					url: '' + target + '.html',
+					id: '' + target + ''
+				})
+			}
+	</script>
+</html>
