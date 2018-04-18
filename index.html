@@ -260,6 +260,12 @@
 		</div>
 	</body>
 	<script type="text/javascript">
+		function opennew(target) {
+				mui.openWindow({
+					url: '' + target + '.html',
+					id: '' + target + ''
+				})
+			}
 		$(function() {
 			var gallery = mui('#myslide');
 			gallery.slider({

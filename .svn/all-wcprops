@@ -87,23 +87,17 @@ svn:wc:ra_dav:version-url
 V 46
 /svn/tyb_mui/!svn/ver/41/taoyiba/user-pwd.html
 END
-goodslist.html
-K 25
-svn:wc:ra_dav:version-url
-V 47
-/svn/tyb_mui/!svn/ver/49/taoyiba/goodslist.html
-END
 question.html
 K 25
 svn:wc:ra_dav:version-url
 V 46
 /svn/tyb_mui/!svn/ver/39/taoyiba/question.html
 END
-newslist.html
+goodslist.html
 K 25
 svn:wc:ra_dav:version-url
-V 46
-/svn/tyb_mui/!svn/ver/47/taoyiba/newslist.html
+V 47
+/svn/tyb_mui/!svn/ver/49/taoyiba/goodslist.html
 END
 my-collect.html
 K 25
@@ -111,23 +105,29 @@ svn:wc:ra_dav:version-url
 V 48
 /svn/tyb_mui/!svn/ver/41/taoyiba/my-collect.html
 END
+newslist.html
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/tyb_mui/!svn/ver/47/taoyiba/newslist.html
+END
 my-cart.html
 K 25
 svn:wc:ra_dav:version-url
 V 45
 /svn/tyb_mui/!svn/ver/41/taoyiba/my-cart.html
 END
-adresslist.html
-K 25
-svn:wc:ra_dav:version-url
-V 48
-/svn/tyb_mui/!svn/ver/34/taoyiba/adresslist.html
-END
 setting.html
 K 25
 svn:wc:ra_dav:version-url
 V 45
 /svn/tyb_mui/!svn/ver/39/taoyiba/setting.html
+END
+adresslist.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/tyb_mui/!svn/ver/34/taoyiba/adresslist.html
 END
 user.html
 K 25
@@ -159,29 +159,29 @@ svn:wc:ra_dav:version-url
 V 47
 /svn/tyb_mui/!svn/ver/31/taoyiba/schoolmap.html
 END
-pay.html
-K 25
-svn:wc:ra_dav:version-url
-V 41
-/svn/tyb_mui/!svn/ver/40/taoyiba/pay.html
-END
 userinform.html
 K 25
 svn:wc:ra_dav:version-url
 V 48
 /svn/tyb_mui/!svn/ver/41/taoyiba/userinform.html
 END
-newsetail.html
+pay.html
 K 25
 svn:wc:ra_dav:version-url
-V 47
-/svn/tyb_mui/!svn/ver/36/taoyiba/newsetail.html
+V 41
+/svn/tyb_mui/!svn/ver/40/taoyiba/pay.html
 END
 advice.html
 K 25
 svn:wc:ra_dav:version-url
 V 44
 /svn/tyb_mui/!svn/ver/39/taoyiba/advice.html
+END
+newsetail.html
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/tyb_mui/!svn/ver/36/taoyiba/newsetail.html
 END
 user-name.html
 K 25
@@ -229,7 +229,7 @@ index.html
 K 25
 svn:wc:ra_dav:version-url
 V 43
-/svn/tyb_mui/!svn/ver/47/taoyiba/index.html
+/svn/tyb_mui/!svn/ver/51/taoyiba/index.html
 END
 city.html
 K 25
