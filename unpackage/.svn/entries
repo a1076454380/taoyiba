@@ -26,6 +26,9 @@ jack
 
 ff21d6b2-a901-1640-9fbc-b5d7d22d22a4
 
+release
+dir
+
 .dependencies
 file
 
@@ -60,16 +63,19 @@ jack
 
 4
 
+res
+dir
+
 .confirmed_dependencies
 file
-46
+47
 
 
 
-2018-04-18T07:42:50.618391Z
-8b8bc7e33aba65ec880f5bf7116b8799
-2018-04-18T07:46:23.186535Z
-46
+2018-04-18T08:04:55.255306Z
+d9ca3ed31a5d2ac803f23efc039ebf2f
+2018-04-18T08:06:19.092651Z
+47
 jack
 
 
@@ -92,5 +98,5 @@ jack
 
 
 
-859
+1010
 
