@@ -22,13 +22,15 @@
 			<div id="bcid">
 				<!--盛放扫描控件的div-->
 			</div>
-			<div class="photo" onclick="scanPicture();">从相册选择二维码</div>
+			<div class="photo-box">
+				<div class="photo" onclick="scanPicture();">从相册选择二维码</div>
+				<div class="photo" onclick="startRecognize();">相机扫描</div>
+			</div>
 		</div>
 		<script type="text/javascript">
-			scan = null; //扫描对象  
+			var scan = null; //扫描对象  
 			mui.plusReady(function() {
 				mui.init();
-				startRecognize();
 			});
 
 			function startRecognize() {
@@ -67,8 +69,7 @@
 						text = 'EAN8: ';
 						break;
 				}
-				alert(text + " : " + result);
-
+				plus.runtime.openURL(result)
 			};
 
 			// 从相册中选择二维码图片   

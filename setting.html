@@ -42,7 +42,7 @@
 				</span>
 			</header>
 			<div class="main">
-				<div class="question-group">
+				<div class="question-group new">
 					<span>
 						检测更新
 					</span>
@@ -68,6 +68,30 @@
 				})
 				$('.about').click(function(){
 					opennew('about-us')
+				})
+				$('.new').click(function(){
+//					获取当前应用版本
+					function plusReady() {
+						plus.runtime.getProperty(plus.runtime.appid, function(inf) {
+							wgtVer = inf.version;
+							$.ajax({
+								type: "get",
+								url: ,
+								dataType: 'json',
+								async: true,
+								success: function(res) {
+//									获取服务器版本并对比
+									if(res.data.versionUserCode != wgtVer) {
+										// 弹出提示信息对话框
+										plus.nativeUI.confirm("有新版本发布啦,是否立即下载??", function(e) {
+//											打开浏览器下载
+											plus.runtime.openURL(res.data.versionAndroidUserUploadUrl)
+										});
+									}
+								}
+							})
+						});
+					}
 				})
 				function opennew(target) {
 					mui.openWindow({

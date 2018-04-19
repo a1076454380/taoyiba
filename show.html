@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/viewer.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/viewer-jquery.min.js" type="text/javascript" charset="utf-8"></script>
 	</head>
+
 	<body>
 		<div class="wrapper show">
+			<div class="myvideo">
+				<video autoplay="autoplay" controls="controls"></video>
+			</div>
 			<!--顶部搜索框-->
 			<header class="head">
 				<span class="mui-action-back">
@@ -45,22 +52,45 @@
 							2019/06/30
 						</div>
 						<div class="show-main">
-							<img src="img/back.jpg"/>
-							<img src="img/back.jpg"/>
-							<img src="img/back.jpg"/>
-							<img src="img/back.jpg"/>
+							<img src="img/back.jpg" />
+							<img src="img/back.jpg" />
+							<img src="img/back.jpg" />
+							<div class="video-box">
+								<video src="img/UC-download.mp4" poster="img/back.jpg"></video>
+								<img src="img/play.png"/>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<script type="text/javascript">
-			$(function(){
-				$('.tab-nav').click(function(){
+			$(function() {
+				$('.tab-nav').click(function() {
 					$('.tab-nav').removeClass('active')
 					$(this).addClass('active')
 				})
+				$('.main img').click(function() {
+					plus.nativeUI.previewImage([
+						$(this).attr('src')
+					]);
+				})
+				$('.video img').click(function(){
+					$(this).prev().click()
+				})
+				$('video').click(function(){
+					$('.myvideo video').attr('src',$(this).attr('src'))
+					$('.myvideo').show()
+				})
+				$('.myvideo').click(function(){
+					$('.myvideo').hide()
+					$('.myvideo video').attr('src','')
+				})
+				$('.main-inner').viewer({
+					url: 'src',
+				});
 			})
 		</script>
 	</body>
+
 </html>
