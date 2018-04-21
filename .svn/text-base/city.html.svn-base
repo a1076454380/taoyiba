@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/mui.min.css"/>
-		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 	</head>
+
 	<body>
 		<div class="wrapper city">
 			<!--顶部搜索框-->
@@ -26,137 +28,156 @@
 			</header>
 			<!--顶部搜索框-->
 			<div class="top-search">
-				<input type="text" placeholder="请输入城市名查询"/>
+				<input type="text" placeholder="请输入城市名查询" />
 			</div>
 			<!--主体部分-->
 			<div class="main">
 				<div class="main-left">
-					<div class="city-group">
-						<div class="city-top">
-							当前城市
-						</div>
-						<div class="city-main">
-							<div class="prov-group active">
-								<img src="img/city_03.png"/>
-								徐州市
+					<div class="left-inner">
+						<div class="city-group">
+							<div class="city-top">
+								当前城市
+							</div>
+							<div class="city-main">
+								<div class="prov-group active">
+									<img src="img/city_03.png" /> 徐州市
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="city-group">
-						<div class="city-top">
-							热门
+						<div class="city-group">
+							<div class="city-top">
+								热门
+							</div>
+							<div class="city-main">
+								<div class="prov-group">
+									北京
+								</div>
+								<div class="prov-group">
+									上海
+								</div>
+								<div class="prov-group">
+									广州
+								</div>
+							</div>
 						</div>
-						<div class="city-main">
-							<div class="prov-group">
-								北京
+						<div class="city-group" id="A">
+							<div class="city-top">
+								A
 							</div>
-							<div class="prov-group">
-								上海
-							</div>
-							<div class="prov-group">
-								广州
+							<div class="group">
+								<div class="city-top city-name">
+									安徽
+								</div>
+								<div class="city-top city-name">
+									安阳
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="city-top" id="A">
-						A
-					</div>
-					<div class="city-top city-name">
-						安徽
-					</div>
-					<div class="city-top city-name">
-						安阳
-					</div>
-					<div class="city-top" id="B">
-						B
-					</div>
-					<div class="city-top city-name">
-						保利
-					</div>
-					<div class="city-top city-name">
-						保安
-					</div>
-					<div class="city-top city-name">
-						保利
-					</div>
-					<div class="city-top city-name">
-						保安
-					</div>
-					<div class="city-top city-name">
-						保利
-					</div>
-					<div class="city-top city-name">
-						保安
-					</div>
-					<div class="city-top" id="C">
-						C
-					</div>
-					<div class="city-top city-name">
-						成都市
-					</div>
-					<div class="city-top city-name">
-						常德市
-					</div>
-					<div class="city-top city-name">
-						池州市
-					</div>
-					<div class="city-top" id="D">
-						D
-					</div>
-					<div class="city-top city-name">
-						丹东市
-					</div>
-					<div class="city-top city-name">
-						大庆市
-					</div>
-					<div class="city-top city-name">
-						定西市
+						<div class="city-group" id="B">
+							<div class="city-top">
+								B
+							</div>
+							<div class="group">
+								<div class="city-top city-name">
+									保利
+								</div>
+								<div class="city-top city-name">
+									保安
+								</div>
+								<div class="city-top city-name">
+									保利
+								</div>
+								<div class="city-top city-name">
+									保安
+								</div>
+								<div class="city-top city-name">
+									保利
+								</div>
+								<div class="city-top city-name">
+									保安
+								</div>
+							</div>
+						</div>
+						<div class="city-group" id="C">
+							<div class="city-top">
+								C
+							</div>
+							<div class="group">
+								<div class="city-top city-name">
+									成都市
+								</div>
+								<div class="city-top city-name">
+									常德市
+								</div>
+								<div class="city-top city-name">
+									池州市
+								</div>
+							</div>
+						</div>
+						<div class="city-group" id="D">
+							<div class="city-top">
+								D
+							</div>
+							<div class="group">
+								<div class="city-top city-name">
+									丹东市
+								</div>
+								<div class="city-top city-name">
+									大庆市
+								</div>
+								<div class="city-top city-name">
+									定西市
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="main-right">
-					<span>
-						#
-					</span>
-					<span>A</span>
-					<span>B</span>
-					<span>C</span>
-					<span>D</span>
-					<span>E</span>
-					<span>F</span>
-					<span>G</span>
-					<span>H</span>
-					<span>I</span>
-					<span>J</span>
-					<span>K</span>
-					<span>L</span>
-					<span>M</span>
-					<span>N</span>
-					<span>O</span>
-					<span>P</span>
-					<span>Q</span>
-					<span>R</span>
-					<span>S</span>
-					<span>T</span>
-					<span>U</span>
-					<span>V</span>
-					<span>W</span>
-					<span>X</span>
-					<span>Y</span>
-					<span>Z</span>
+					<div class="right-content">
+						<span>
+								#
+							</span>
+						<span>A</span>
+						<span>B</span>
+						<span>C</span>
+						<span>D</span>
+						<span>E</span>
+						<span>F</span>
+						<span>G</span>
+						<span>H</span>
+						<span>I</span>
+						<span>J</span>
+						<span>K</span>
+						<span>L</span>
+						<span>M</span>
+						<span>N</span>
+						<span>O</span>
+						<span>P</span>
+						<span>Q</span>
+						<span>R</span>
+						<span>S</span>
+						<span>T</span>
+						<span>U</span>
+						<span>V</span>
+						<span>W</span>
+						<span>X</span>
+						<span>Y</span>
+						<span>Z</span>
+					</div>
 				</div>
 			</div>
-		</div>
-		<script type="text/javascript">
-			$(function(){
-				$('.main-right span').click(function(){
-					$(".main-left").animate({
-						scrollTop: $('#'+$(this).html()+'').offset().top + -30 + "px"
-					}, {
-						duration: 300,
-						easing: "swing"
-					});
+			<script type="text/javascript">
+				$(function() {
+					$('.right-content span').click(function() {
+						$(".left-inner").animate({
+							scrollTop: $('#' + $(this).html() + '').offset().top + -30 + "px"
+						}, {
+							duration: 300,
+							easing: "swing"
+						});
+					})
 				})
-			})
-		</script>
+			</script>
 	</body>
+
 </html>

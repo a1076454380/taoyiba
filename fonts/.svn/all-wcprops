@@ -1,11 +1,35 @@
 K 25
 svn:wc:ra_dav:version-url
-V 37
-/svn/tyb_mui/!svn/ver/2/taoyiba/fonts
+V 38
+/svn/tyb_mui/!svn/ver/58/taoyiba/fonts
+END
+lg.svg
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/tyb_mui/!svn/ver/58/taoyiba/fonts/lg.svg
+END
+lg.woff
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/tyb_mui/!svn/ver/58/taoyiba/fonts/lg.woff
 END
 mui.ttf
 K 25
 svn:wc:ra_dav:version-url
 V 45
 /svn/tyb_mui/!svn/ver/2/taoyiba/fonts/mui.ttf
+END
+lg.eot
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/tyb_mui/!svn/ver/58/taoyiba/fonts/lg.eot
+END
+lg.ttf
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/tyb_mui/!svn/ver/58/taoyiba/fonts/lg.ttf
 END

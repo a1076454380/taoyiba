@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 35
-/svn/tyb_mui/!svn/ver/25/taoyiba/js
+/svn/tyb_mui/!svn/ver/58/taoyiba/js
 END
 mui.poppicker.js
 K 25
@@ -14,6 +14,18 @@ K 25
 svn:wc:ra_dav:version-url
 V 49
 /svn/tyb_mui/!svn/ver/25/taoyiba/js/mui.picker.js
+END
+lg-video.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/tyb_mui/!svn/ver/58/taoyiba/js/lg-video.min.js
+END
+lightgallery.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tyb_mui/!svn/ver/58/taoyiba/js/lightgallery.min.js
 END
 mui.min.js
 K 25
@@ -33,11 +45,11 @@ svn:wc:ra_dav:version-url
 V 48
 /svn/tyb_mui/!svn/ver/25/taoyiba/js/city.data.js
 END
-viewer-jquery.min.js
+lg-pager.min.js
 K 25
 svn:wc:ra_dav:version-url
-V 56
-/svn/tyb_mui/!svn/ver/57/taoyiba/js/viewer-jquery.min.js
+V 51
+/svn/tyb_mui/!svn/ver/58/taoyiba/js/lg-pager.min.js
 END
 jquery.min.js
 K 25

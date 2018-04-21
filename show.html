@@ -6,12 +6,12 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/viewer.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/lightgallery.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/viewer-jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>-->
+		
 	</head>
 
 	<body>
@@ -46,50 +46,49 @@
 						荣誉展示
 					</div>
 				</div>
+				<div id="videogroup" style="display: none;">
+					<div style="display:none;" id="video1">
+						<video class="lg-video-object lg-html5" controls preload="none" src="img/UC-download.mp4">
+						</video>
+					</div>
+					<div style="display:none;" id="video2">
+						<video class="lg-video-object lg-html5" controls preload="none" src="img/UC-download.mp4">
+						</video>
+					</div>
+				</div>
 				<div class="main-inner">
 					<div class="show-group">
 						<div class="show-data">
 							2019/06/30
 						</div>
-						<div class="show-main">
-							<img src="img/back.jpg" />
-							<img src="img/back.jpg" />
-							<img src="img/back.jpg" />
-							<div class="video-box">
-								<video src="img/UC-download.mp4" poster="img/back.jpg"></video>
-								<img src="img/play.png"/>
+						<div class="show-main list-unstyled" id="html5-videos">
+							<div data-sub-html="" data-html="#video1" data-responsive="">
+								<img src="img/back.jpg" />
+							</div>
+							<div data-sub-html="" data-html="#video2" data-responsive="">
+								<img src="img/back.jpg" />
+							</div>
+							<div data-src="img/back.jpg">
+								<a href="">
+									<img src="img/back.jpg"  class="img-responsive"/>
+								</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<script src="js/lightgallery.min.js"></script>
+		<script src="js/lg-pager.min.js"></script>
+		<script src="js/lg-video.min.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
-			$(function() {
-				$('.tab-nav').click(function() {
-					$('.tab-nav').removeClass('active')
-					$(this).addClass('active')
-				})
-				$('.main img').click(function() {
-					plus.nativeUI.previewImage([
-						$(this).attr('src')
-					]);
-				})
-				$('.video img').click(function(){
-					$(this).prev().click()
-				})
-				$('video').click(function(){
-					$('.myvideo video').attr('src',$(this).attr('src'))
-					$('.myvideo').show()
-				})
-				$('.myvideo').click(function(){
-					$('.myvideo').hide()
-					$('.myvideo video').attr('src','')
-				})
-				$('.main-inner').viewer({
-					url: 'src',
-				});
-			})
+			lightGallery(document.getElementById('html5-videos'));
+//			$(function() {
+//				$('.tab-nav').click(function() {
+//					$('.tab-nav').removeClass('active')
+//					$(this).addClass('active')
+//				})
+//			})
 		</script>
 	</body>
 

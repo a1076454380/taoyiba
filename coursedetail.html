@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+	</head>
+	<style type="text/css">
+		#course {
+			display: none;
+		}
+		
+		.school .group-text {
+			height: auto;
+		}
+	</style>
+
+	<body>
+		<div class="wrapper course school">
+			<!--视频全屏播放容器-->
+			<div class="myvideo">
+				<video autoplay="autoplay" controls="controls"></video>
+			</div>
+			<header class="head">
+				<span class="header-back mui-action-back">
+					<img src="img/detail_03.png"/>
+				</span>
+				<div>
+					课程详情
+				</div>
+				<span>
+					<img src="img/school_03.png" class="collect"/>
+					<!--<img src="img/school_05.png"/>-->
+				</span>
+			</header>
+			<!--详情-->
+			<div class="main coursedetail" id="detail">
+				<div id="scroll">
+					<!--主体轮播图-->
+					<div class="mui-slider" id="slide01">
+						<div class="mui-slider-group">
+							<div class="mui-slider-item">
+								<a href="#"><img src="img/course_06.png" /></a>
+							</div>
+							<div class="mui-slider-item video">
+								<video poster="img/back.jpg" src="img/UC-download.mp4"></video>
+								<img src="img/play.png" />
+							</div>
+							<div class="mui-slider-item">
+								<a href="#"><img src="img/course_06.png" /></a>
+							</div>
+							<div class="mui-slider-item">
+								<a href="#"><img src="img/course_06.png" /></a>
+							</div>
+						</div>
+					</div>
+					<div class="white">
+						<div class="course-name">
+							<span class="course-data">
+								年卡
+							</span>
+							<span>
+								中国舞蹈学一对一小课
+							</span>
+						</div>
+						<div class="course-type">
+							#舞蹈
+						</div>
+						<div class="course-price">
+							¥<span>7200.00</span>
+						</div>
+						<div class="course-num">
+							<span>
+								已报名:15
+							</span>
+							<span>
+								预计剩余:0
+							</span>
+						</div>
+					</div>
+					<div class="school-group volume">
+						<span class="volum-title">
+							赠券
+						</span>
+						<span>
+							该课程支付成功后最大可返还价值7200.00元的购物券
+						</span>
+					</div>
+					<div class="school-group" style="padding-bottom: .2rem;">
+						<div class="group-title">
+							<div class="group-inner">
+								课程简介
+							</div>
+						</div>
+						<div class="group-text">
+							徐州市金沙桥小海螺爱上地哦啊是近代觉得我已大声叫地哦
+						</div>
+					</div>
+					<div class="school-group" style="padding-bottom: .2rem;">
+						<div class="group-title">
+							<div class="group-inner">
+								授课对象
+							</div>
+						</div>
+						<div class="group-text">
+							针对10 ---- 18岁即将考学的学员，一对一课程辅导
+						</div>
+						<div class="group-text">
+							网上购课，概不退费
+						</div>
+					</div>
+					<div class="school-group" style="padding-bottom: .2rem;">
+						<div class="group-title">
+							<div class="group-inner">
+								课程设置
+							</div>
+						</div>
+						<div class="group-text">
+							开课时间:2017-10-01 00：04：46
+						</div>
+						<div class="group-text">
+							课程时长:40
+						</div>
+						<div class="group-text">
+							授课时间:周日14:00 - 15:30
+						</div>
+					</div>
+					<div class="school-group" style="padding-bottom: .2rem;">
+						<div class="group-title">
+							<div class="group-inner">
+								备注
+							</div>
+						</div>
+						<div class="group-text">
+							200元/课时 90分钟/课时
+						</div>
+						<div class="group-text">
+							请支付成功截图并在购买是务必备注学院名称以便验证
+						</div>
+					</div>
+					<div class="school-group">
+						<div class="group-title">
+							<div class="group-inner">
+								上课地址
+							</div>
+						</div>
+						<div class="group-main">
+							<div class="group-text">
+								徐州市金沙桥小海螺
+							</div>
+							<div class="group-adress">
+								<img src="img/school_25.png" />
+								<sapn>
+									1248.2KM
+								</sapn>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部导航栏-->
+		<bottom class='bottom'>
+			<a href="tel:1562568489"><img src="img/school_12.png" style="margin: .2rem .5rem 0;height: .5rem;"/></a>
+			<div class="bottom-tab" style="background: rgb(280,80,60);color: white;">
+				购买课卡
+			</div>
+		</bottom>
+		<script type="text/javascript">
+			$(function() {
+				var index = 0
+
+				function opennew(target) {
+					mui.openWindow({
+						url: '' + target + '.html',
+						id: '' + target + ''
+					})
+				}
+				$('.group-adress').click(function() {
+					opennew('schoolmap')
+				})
+				$('.schoolrating').click(function() {
+					opennew('schoolrating')
+				})
+				$('.show').click(function() {
+					opennew('show')
+				})
+				$('.newslist').click(function() {
+					opennew('newslist')
+				})
+				$('.video img').click(function() {
+					$(this).prev().click()
+				})
+				$('video').click(function() {
+					$('.myvideo video').attr('src', $(this).attr('src'))
+					$('.myvideo').show()
+				})
+				$('.myvideo').click(function() {
+					$('.myvideo').hide()
+					$('.myvideo video').attr('src', '')
+				})
+				$('.text-arr').click(function() {
+					if($('.group-text').attr('class') == 'group-text') {
+						$('.group-text').attr('class', 'group-text textauto')
+						$(this).attr('src', 'img/arrtop.png')
+					} else {
+						$('.group-text').attr('class', 'group-text')
+						$(this).attr('src', 'img/course_03.png')
+					}
+				})
+				$('.collect').click(function() {
+					if($(this).attr('src') == 'img/school_03.png') {
+						$(this).attr('src', 'img/school02_03.png')
+					} else {
+						$(this).attr('src', 'img/school_03.png')
+					}
+				})
+				$('.bottom-tab').click(function(){
+					opennew('pay')
+				})
+			})
+		</script>
+	</body>
+
+</html>

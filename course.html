@@ -68,61 +68,61 @@
 						</div>
 					</div>
 					<div class="tabnav">
-						<div class="tab">
+						<div class="tab tabone">
 							<img src="img/course02_03.png" />
 							<span>
 								钢琴
 							</span>
 						</div>
-						<div class="tab">
+						<div class="tab tabone">
 							<img src="img/course02_05.png" />
 							<span>
 								古筝
 							</span>
 						</div>
-						<div class="tab">
+						<div class="tab tabone">
 							<img src="img/course02_07.png" />
 							<span>
 								吉他
 							</span>
 						</div>
-						<div class="tab">
+						<div class="tab tabone">
 							<img src="img/course02_09.png" />
 							<span>
 								声乐
 							</span>
 						</div>
-						<div class="tab">
+						<div class="tab tabone">
 							<img src="img/course02_11.png" />
 							<span>
 								绘画
 							</span>
 						</div>
-						<div class="tab">
+						<div class="tab tabone">
 							<img src="img/course02_18.png" />
 							<span>
 								舞蹈
 							</span>
 						</div>
-						<div class="tab">
+						<div class="tab tabone">
 							<img src="img/course02_19.png" />
 							<span>
 								打击乐
 							</span>
 						</div>
-						<div class="tab">
+						<div class="tab tabone">
 							<img src="img/course02_20.png" />
 							<span>
 								口才
 							</span>
 						</div>
-						<div class="tab">
+						<div class="tab tabone">
 							<img src="img/course02_21.png" />
 							<span>
 								武术
 							</span>
 						</div>
-						<div class="tab">
+						<div class="tab taball" style="margin: 0;">
 							<img src="img/course02_22.png" />
 							<span>
 								全部
@@ -525,8 +525,11 @@
 				$('.bottom-tab').click(function() {
 					opennew($(this).attr('data-target'))
 				})
-				$('.tabnav .tab').click(function(){
+				$('.tabnav .tabone').click(function(){
 					opennew('courselist')
+				})
+				$('.tabnav .taball').click(function(){
+					opennew('taball')
 				})
 				$('.more').click(function(){
 					opennew('courselist')

@@ -1,7 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 36
-/svn/tyb_mui/!svn/ver/52/taoyiba/css
+/svn/tyb_mui/!svn/ver/58/taoyiba/css
+END
+lightgallery.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/tyb_mui/!svn/ver/58/taoyiba/css/lightgallery.min.css
 END
 mui.min.css
 K 25
@@ -9,17 +15,11 @@ svn:wc:ra_dav:version-url
 V 48
 /svn/tyb_mui/!svn/ver/23/taoyiba/css/mui.min.css
 END
-viewer.min.css
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/tyb_mui/!svn/ver/57/taoyiba/css/viewer.min.css
-END
 main.css
 K 25
 svn:wc:ra_dav:version-url
 V 45
-/svn/tyb_mui/!svn/ver/57/taoyiba/css/main.css
+/svn/tyb_mui/!svn/ver/63/taoyiba/css/main.css
 END
 mui.poppicker.css
 K 25
