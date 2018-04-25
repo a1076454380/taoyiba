@@ -3,15 +3,27 @@ svn:wc:ra_dav:version-url
 V 50
 /svn/tyb_mui/!svn/ver/57/taoyiba/unpackage/release
 END
-H5CBFE208_0419134103.apk
+H5CBFE208_0425102405.ipa
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/tyb_mui/!svn/ver/57/taoyiba/unpackage/release/H5CBFE208_0419134103.apk
+/svn/tyb_mui/!svn/ver/68/taoyiba/unpackage/release/H5CBFE208_0425102405.ipa
 END
-H5CBFE208_0419112823.apk
+H5CBFE208_0425102505.ipa
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/tyb_mui/!svn/ver/56/taoyiba/unpackage/release/H5CBFE208_0419112823.apk
+/svn/tyb_mui/!svn/ver/69/taoyiba/unpackage/release/H5CBFE208_0425102505.ipa
+END
+H5CBFE208_0425102226.apk.tmp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tyb_mui/!svn/ver/68/taoyiba/unpackage/release/H5CBFE208_0425102226.apk.tmp
+END
+H5CBFE208_0425102058.apk
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tyb_mui/!svn/ver/68/taoyiba/unpackage/release/H5CBFE208_0425102058.apk
 END

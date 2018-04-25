@@ -1,10 +1,11 @@
 html,body,.wrapper,.mui-content{width: 100%;height: 100%;font-size: .2rem;line-height: none;overflow-x: scroll;}
-.head{position: fixed;top: 0;left: 0;width: 100%;display: flex;z-index: 999;padding: 0 .2rem;}
+.wrapper{position: relative;overflow: hidden;}
+.head{position: absolute;top: 0;left: 0;width: 100%;display: flex;z-index: 999;padding: 0 .2rem;}
 .head span{display: flex;align-items: center;justify-content: center;white-space: nowrap;}
 .head div{flex: 1;display: flex;align-items: center;justify-content: center;}
-.bottom{position: fixed;bottom: 0;left: 0;width: 100%;display: flex;height: .8rem;background: white;z-index: 999;}
+.bottom{position: absolute;bottom: 0;left: 0;width: 100%;display: flex;height: .8rem;background: white;z-index: 999;}
 .bottom .active{color: rgb(236,94,74);font-weight: 600;}
-.main{width: 100%;padding-bottom:1.4rem ;margin-top: .6rem;}
+.main{width: 100%;padding-bottom:1.4rem ;margin-top: .6rem;height: 100%;overflow-y: scroll;overflow-x: hidden;}
 .myalert{position: fixed;width: 100%;height: 100%;background: rgba(0,0,0,.5);display: flex;align-items: center;justify-content: center;z-index: 999;display: none;}
 .alert-main{width: 4rem;background: white;overflow: hidden;border-radius: .1rem;}
 .alert-main .text{height:1rem;line-height: 1rem;text-align: center;}
@@ -180,7 +181,6 @@ html,body,.wrapper,.mui-content{width: 100%;height: 100%;font-size: .2rem;line-h
 .shop .alert-group img{width: .4rem;height: .4rem;margin-bottom: .1rem;}
 .shop .alert-top{width: 100%;height:.7rem;display: flex;justify-content: space-between;margin: .2rem .2rem 0 .2rem;border-bottom: 1px solid ghostwhite;}
 .shop .alert-top img{width: .4rem;}
-.shop{margin-top: .7rem;}
 .shop #myslide img,.shop #myslide video{height: 3rem;}
 .shop #myslide img{top: 1.2rem;}
 .shop .heat .index-tab{width: 49%;}
@@ -378,6 +378,11 @@ html,body,.wrapper,.mui-content{width: 100%;height: 100%;font-size: .2rem;line-h
 .school #slide02 .buy-num{color: #999999;font-size: .2rem;}
 .school .overdue .price,.school .overdue .price{color: #999999!important;}
 .school .overdue .course-year{background: white;border: 1px solid rgb(204,204,204);color: rgb(204,204,204);}
+.school .bottom{border-top: 1px solid  #f2f3f7;}
+.school .bottom input[type='text']{margin:0;padding: 0;border: 0;font-size: .2rem;background: #f2f3f7;border-radius: .1rem;flex: 1;height: .4rem;color: #b7b8bc;text-indent: .1rem;}
+.school .bottom form{display: flex;align-items: center;width: 100%;margin: 0 .2rem;}
+.school .input::-webkit-input-placeholder{font-size: .2rem;}
+.school input[type='submit']{background: white;border: 0;color: #b7b8bc;font-size: .25rem;padding: 0 .1rem;}
 /*地图*/
 .map .head{height: .7rem;background: white;}
 .map .head img{height: .3rem;}
