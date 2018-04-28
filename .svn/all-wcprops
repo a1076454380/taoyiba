@@ -51,6 +51,12 @@ svn:wc:ra_dav:version-url
 V 46
 /svn/tyb_mui/!svn/ver/39/taoyiba/about-us.html
 END
+changecart.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/tyb_mui/!svn/ver/71/taoyiba/changecart.html
+END
 course.html
 K 25
 svn:wc:ra_dav:version-url
@@ -81,17 +87,17 @@ svn:wc:ra_dav:version-url
 V 44
 /svn/tyb_mui/!svn/ver/42/taoyiba/search.html
 END
-mycourse.html
-K 25
-svn:wc:ra_dav:version-url
-V 46
-/svn/tyb_mui/!svn/ver/38/taoyiba/mycourse.html
-END
 user-pwd.html
 K 25
 svn:wc:ra_dav:version-url
 V 46
 /svn/tyb_mui/!svn/ver/41/taoyiba/user-pwd.html
+END
+mycourse.html
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/tyb_mui/!svn/ver/38/taoyiba/mycourse.html
 END
 goodslist.html
 K 25
@@ -139,7 +145,7 @@ user.html
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/tyb_mui/!svn/ver/45/taoyiba/user.html
+/svn/tyb_mui/!svn/ver/70/taoyiba/user.html
 END
 show.html
 K 25
@@ -177,17 +183,17 @@ svn:wc:ra_dav:version-url
 V 41
 /svn/tyb_mui/!svn/ver/40/taoyiba/pay.html
 END
-advice.html
-K 25
-svn:wc:ra_dav:version-url
-V 44
-/svn/tyb_mui/!svn/ver/39/taoyiba/advice.html
-END
 newsetail.html
 K 25
 svn:wc:ra_dav:version-url
 V 47
 /svn/tyb_mui/!svn/ver/36/taoyiba/newsetail.html
+END
+advice.html
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/tyb_mui/!svn/ver/39/taoyiba/advice.html
 END
 schoolrating.html
 K 25
@@ -237,6 +243,12 @@ svn:wc:ra_dav:version-url
 V 44
 /svn/tyb_mui/!svn/ver/63/taoyiba/taball.html
 END
+my-points.html
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/tyb_mui/!svn/ver/70/taoyiba/my-points.html
+END
 index.html
 K 25
 svn:wc:ra_dav:version-url
@@ -283,7 +295,7 @@ order.html
 K 25
 svn:wc:ra_dav:version-url
 V 43
-/svn/tyb_mui/!svn/ver/27/taoyiba/order.html
+/svn/tyb_mui/!svn/ver/71/taoyiba/order.html
 END
 carthistory.html
 K 25

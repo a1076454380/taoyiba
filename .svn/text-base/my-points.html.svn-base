@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<style>
+		.head span{width: .2rem;}
+		.mycart .price,.mycart .content{height: 4rem;}
+		.mycart .price .money{font-size: .7rem;}
+		.mycart .cart{font-size: .25rem;margin-top: .2rem;}
+	</style>
+	<body>
+		<div class="wrapper mycart">
+			<header class="head">
+				<span class="header-back mui-action-back">
+					<img src="img/cartright.png"/>
+				</span>
+				<div>我的积分</div>
+				<span class="head-setting">
+					记录
+				</span>
+			</header>
+			<div class="main">
+				<div class="back"></div>
+				<div class="content">
+					<div class="content-inner">
+						<div class="price">
+							<div class="money">2800</div>
+							<div class="cart">可用积分</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

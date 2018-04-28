@@ -62,7 +62,7 @@
 					</div>
 				</div>
 				<div class="order-group">
-					<div class="price-group">
+					<div class="price-group" onclick="opennew('changecart')">
 						<span>
 							艺宝卷
 						</span>
