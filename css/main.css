@@ -147,6 +147,9 @@ html,body,.wrapper,.mui-content{width: 100%;height: 100%;font-size: .2rem;line-h
 .shopdetail .alertprice{position: fixed;width: 100%;height: 100%;background: rgba(0,0,0,0.5);top: 100%;left: 0;z-index: 9999;transition: all .3s;}
 .shopdetail .mui-slider video{height:6rem;width: 100%;}
 .shopdetail .video img{top: 2.5rem;}
+.shopdetail .type{display: flex;align-items: center;flex-wrap: wrap;height: auto;}
+.shopdetail .type-group{padding: 0 .2rem;border: 1px solid rgb(254,150,137);color: rgb(254,150,137);margin:  .2rem;border-radius: .1rem;}
+.shopdetail .type .active{border-color:rgb(255,80,60) ;color: #ffffff;background: rgb(255,80,60);}
 .aprice-main{position: absolute;bottom: 0;left: 0;width: 100%;background: white;}
 .aprice-main .alert-inform{display: flex;align-items: flex-end;border-bottom: 1px solid ghostwhite;padding:  .2rem 0;position: relative;top: -.6rem;}
 .aprice-main img{width: 1.4rem;height: 1.4rem;margin: 0 .2rem;}
@@ -458,9 +461,9 @@ html,body,.wrapper,.mui-content{width: 100%;height: 100%;font-size: .2rem;line-h
 /*我的订单*/
 .orderhistory .head{background: white;height: .7rem;border-bottom: 1px solid ghostwhite;}
 .orderhistory .head img{height: .3rem;}
-.orderhistory .top-nav{display: flex;align-items: center;height: .7rem;background: white;justify-content: space-around;}
-.orderhistory .nav-tab{display: flex;align-items: center;justify-content: center;color: rgb(151,151,151);padding: 0 5px;}
-.orderhistory .active{border-bottom: 2px solid rgb(280,80,60);color: #333333;}
+.orderhistory .top-nav,.shop .top-nav02{display: flex;align-items: center;height: .7rem;background: white;justify-content: space-around;}
+.orderhistory .nav-tab,.shop .top-nav02 .nav-tab{display: flex;align-items: center;justify-content: center;color: rgb(151,151,151);padding: 0 5px;}
+.orderhistory .active,.shop .top-nav02 .active{border-bottom: 2px solid rgb(280,80,60);color: #333333;}
 .orderhistory .noorder{width: 6rem;margin: 2rem auto 0;display: block;height: 4rem;}
 .orderhistory .shop-name{display: flex;justify-content: space-between;margin: 0 .2rem;padding: .1rem 0;}
 .orderhistory .order-group{background: white;margin-top: .1rem;padding-bottom: .1rem;}

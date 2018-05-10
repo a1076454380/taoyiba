@@ -116,6 +116,20 @@
 					</p>
 				</div>
 				<div class="main-group special">
+					<span class="red">*</span>选择分类
+				</div>
+				<div class="main-group type">
+					<div class="type-group active">
+						红色
+					</div>
+					<div class="type-group">
+						蓝色
+					</div>
+					<div class="type-group">
+						绿色
+					</div>
+				</div>
+				<div class="main-group special">
 					<span class="red">*</span>本商品为特卖商品
 				</div>
 				<div id="detail"></div>
@@ -207,6 +221,10 @@
 					});
 					return false;
 				});
+				$('.type-group').click(function(){
+					$('.type-group').removeClass('active')
+					$(this).addClass('active')
+				})
 			})
 		</script>
 	</body>
