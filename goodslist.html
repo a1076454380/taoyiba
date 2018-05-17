@@ -8,8 +8,6 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
-		<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.4&key=3adc59b361b877d943cda0ce50b9b4da"></script>
-		<script src="http://webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
 		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
@@ -30,6 +28,14 @@
 			</header>
 			<div class="main shoplist goodlist">
 				<img src="img/list_06.png" class="main-img"/>
+				<div class="goodtype">
+					<div class="goodsubtype good-this">
+						积分商品
+					</div>
+					<div class="goodsubtype">
+						热卖商品
+					</div>
+				</div>
 				<div class="shoplist-nav">
 					<div class="nav-tab active" id="all">
 						<span class="tab-name">
@@ -302,6 +308,17 @@
 						id: '' + target + ''
 					})
 				}
+				$('.goodsubtype').click(function(){
+					$('.goodsubtype').removeClass('good-this')
+					$(this).addClass('good-this')
+				})
+				$('.main').scroll(function(){
+					if($(this).scrollTop()>$('.shoplist-nav').offset().top+40){
+						$('.shoplist-nav').css('position','absolute')
+					}else{
+						$('.shoplist-nav').css('position','inherit')
+					}
+				})
 				//				全部商品
 				$('#all').click(function() {
 					$('.upshow').hide()
